@@ -208,7 +208,7 @@
 206,The Picture of Dorian Gray,Oscar Wilde,1890
 207,The Hitchhiker's Guide to the Galaxy,Douglas Adams,1979
 208,Collected Poems,Wallace Stevens,1955
-209,Harry Potter And The Philosopher's Stone,J. K Rowling,1997
+209,Harry Potter And The Philosopher's Stone,J. K. Rowling,1997
 210,American Pastoral,Philip Roth,1997
 211,La Regenta,Clarín,1884
 212,Atlas Shrugged,Ayn Rand,1957
@@ -757,7 +757,7 @@
 755,The Man in the High Castle,Philip K. Dick,1962
 756,The Magnificent Ambersons ,Booth Tarkington,1918
 757,The Famished Road,Ben Okri,1991
-758,Harry Potter and the Goblet of Fire ,J. K Rowling,2000
+758,Harry Potter and the Goblet of Fire ,J. K. Rowling,2000
 759,Dog Soldiers ,Robert Stone,1974
 760,Goodnight Moon,Margaret Wise Brown,
 761,Selected Stories of Lu Hsun,Xun Lu,1936
@@ -785,7 +785,7 @@
 783,A Lost Lady,Willa Cather,1923
 784,Nectar in a Sieve,Kamala Markandaya,1954
 785,Citizen: An American Lyric,Claudia Rankine,2014
-786,Harry Potter and the Deathly Hallows,J. K Rowling,2007
+786,Harry Potter and the Deathly Hallows,J. K. Rowling,2007
 787,Cranford,Elizabeth Gaskell,1851
 788,The Curious Incident of the Dog in the Night-time,Mark Haddon,2003
 789,The Lady with the Dog,Anton Chekhov,1899
@@ -803,14 +803,14 @@
 801,The Clan of the Cave Bear,Jean M. Auel,1980
 802,Wittgenstein's Mistress,David Markson,1988
 803,The Fixer,Bernard Malamud,1966
-804,Harry Potter and the Half-Blood Prince,J. K Rowling,2005
+804,Harry Potter and the Half-Blood Prince,J. K. Rowling,2005
 805,The Pillars Of The Earth,Ken Follett,1989
 806,Red Harvest ,Dashiell Hammett,1929
 807,Pastoralia,George Saunders,2000
 808,Amerika,Franz Kafka,1927
-809,Harry Potter And The Prisoner Of Azkaban,J. K Rowling,1999
-810,Harry Potter And The Chamber Of Secrets,J. K Rowling,1998
-811,Harry Potter and the Order of the Phoenix,J. K Rowling,2003
+809,Harry Potter And The Prisoner Of Azkaban,J. K. Rowling,1999
+810,Harry Potter And The Chamber Of Secrets,J. K. Rowling,1998
+811,Harry Potter and the Order of the Phoenix,J. K. Rowling,2003
 812,Richard III,William Shakespeare,1592
 813,Lanark ,Alasdair Gray,1981
 814,The Kreutzer Sonata: And Other Stories,Leo Tolstoy,1889
@@ -1207,7 +1207,7 @@
 1205,All about H. Hatterr, G. V. Desani,1948
 1206,Fanny Hill, John Cleland,1748
 1207,The Garden Where the Brass Band Played,Simon Vestdijk,1950
-1208,La Celestina,"",1499
+1208,La Celestina,,1499
 1209,The Year of the Hare, Arto Paasilinna,1975
 1210,The Harvesters,Cesare Pavese,1941
 1211,The Labyrinth of Solitude,Octavio Paz,1950
@@ -1229,7 +1229,7 @@
 1227,Around the World in Eighty Days,Jules Verne,1873
 1228,Amok,Stefan Zweig,1922
 1229,Pepita Jimenez,Juan Valera y Alcalá-Galiano,1874
-1230,The Life of Lazarillo de Tormes,"",1554
+1230,The Life of Lazarillo de Tormes,,1554
 1231,The Master,Colm Tóibín,2004
 1232,Quo Vadis,Henryk Sienkiewicz,1896
 1233,Remembering Babylon,David Malouf,1993
@@ -1370,7 +1370,7 @@
 1368,The Living and the Dead,Patrick White,1941
 1369,The Marriage Plot,Jeffrey Eugenides,2011
 1370,Santa Evita,Tomás Eloy Martínez,1995
-1371,The Tale of the Bamboo Cutter,"",1592
+1371,The Tale of the Bamboo Cutter,,1592
 1372,L'Abbé C,Georges Bataille,1950
 1373,Almost Transparent Blue,Ryū Murakami,1976
 1374,Holder of the World: A Novel,Bharati Mukherjee,1993
@@ -1445,7 +1445,7 @@
 1443,The Manor,Isaac Bashevis Singer,1967
 1444,Adam Bede,George Eliot,1859
 1445,Cheese, Willem Elsschot,1933
-1446,Tirant Lo Blanc,"",1490
+1446,Tirant Lo Blanc,,1490
 1447,The Castle of Crossed Destinies,Italo Calvino,1973
 1448,Life and Death of Harriett Frean,May Sinclair,1922
 1449,Dictionary of the Khazars,Milorad Pavic,1984
@@ -1488,7 +1488,7 @@
 1486,On the Black Hill,Bruce Chatwin,1982
 1487,Death in Rome,Wolfgang Koeppen,1954
 1488,The Glass Bees,Ernst Jünger,1957
-1489,Amadis of Gaul,"",1304
+1489,Amadis of Gaul,,1304
 1490,The Return of the Soldier,Rebecca West,1918
 1491,Bosnian Chronicle, Ivo Andrić,1945
 1492,The Quest,Frederik van Eeden,1885
@@ -1734,7 +1734,7 @@
 1732,Ballet Shoes,Noel Streatfeild,1936
 1733,Home Fire,Kamila Shamsie,2017
 1734,Another Country,Karel Schoeman,1984
-1735,August 1914,Aleksandr Isaevich Solzhenit︠s︡yn,1971
+1735,14-Aug,Aleksandr Isaevich Solzhenit︠s︡yn,1971
 1736,Goodnight Mister Tom,Michelle Magorian,1981
 1737,La Saga/ Fuga de J. B./ The Saga/ Escape of J.B.,Gonzalo Torrente Ballester,1972
 1738,Forever...,Judy Blume,1975
@@ -2297,7 +2297,6 @@
 2295,House of Leaves,Mark Z. Danielewski,2000
 2296,The Green Road,Anne Enright,2015
 2297,Levels of Life,Julian Barnes,2013
-2298,The Notebook: The Proof ; The Third Lie : Three Novels,Agota Kristof,1986
 2299,Human Chain,Seamus Heaney,2010
 2300,Night Watch,Terry Pratchett,2002
 2301,The Haunting of Hill House ,Shirley Jackson,1959
