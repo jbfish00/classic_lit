@@ -58,7 +58,7 @@ for row in table_rows:
         author_td = row.find('td', class_='au')
         author = author_td.text.strip() if author_td else "N/A"
 
-        genre = row.get('class')[-1] if 'class' in row.attrs else "Fiction"
+        genre = row.get('class')[-1] if 'class' in row.attrs else "gen_fiction"
 
         rank_genre.append({'Rank': rank, 'Title': title, 'Author': author, 'Genre': genre})
 
