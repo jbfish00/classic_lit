@@ -2,10 +2,6 @@ import pandas as pd
 import re
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.edge.service import Service as EdgeService
-from webdriver_manager.microsoft import EdgeChromiumDriverManager
-from selenium.webdriver.common.by import By
 
 ## Master List with Title(key), Author, Year
 df1 = pd.read_csv('tgb_1.csv', header = None)
