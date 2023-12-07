@@ -2,32 +2,76 @@ import pandas as pd
 import re
 import requests
 from bs4 import BeautifulSoup
+import json
+
+#Function for cleaning the titles
+def clean_title(title):
+    title = title.replace("20,000 Leagues Under the Sea", "Twenty Thousand Leagues Under the Sea")
+    title = title.replace("The Wonderful Wizard of Oz", "The Wizard of Oz")
+    title = title.replace("The Adventures of Oliver Twist", "Oliver Twist")
+    # Replace titles one by one
+    titles_to_replace = ["The Fellowship of the Ring", "The Two Towers", "The Return of the King"]
+    replacement_title = "The Lord of the Rings"
+    for old_title in titles_to_replace:
+        title = title.replace(old_title, replacement_title)
+    
+    title = title if title == "The Invisible Man" else title.replace('The ', '')
+    title = title.replace("&", "and")
+    title = re.sub(r'\s*\([^)]*\)\s*', '', title)
+    title = title.lower()
+    title = title.split(', or,')[0]
+    title = title.split(':')[0]
+    title = title.strip()
+    return title
+
 
 ## Master List with Title(key), Author, Year
 df1 = pd.read_csv('tgb_1.csv', header = None)
 df2 = pd.read_csv('tgb_2.csv', header = None)
 
-master_list = pd.concat([df1, df2], ignore_index=True)
-master_list = master_list.drop(master_list.columns[0], axis=1)
-master_list.columns = ['Title', 'Author', 'Year']
-master_list = master_list[['Title', 'Year']]
+fic_nonfic_list = pd.concat([df1, df2], ignore_index=True)
+fic_nonfic_list = fic_nonfic_list.drop(fic_nonfic_list.columns[0], axis=1)
+fic_nonfic_list.columns = ['Title', 'Author', 'Year']
+fic_nonfic_list = fic_nonfic_list[['Title', 'Year']]
 
 title_to_replace = "The Wonderful Wizard of Oz"
 replacement_title = "The Wizard of Oz"
-master_list['Title'] = master_list['Title'].replace(title_to_replace, replacement_title)
+fic_nonfic_list['Title'] = fic_nonfic_list['Title'].replace(title_to_replace, replacement_title)
 
 
 #cleaning to try and match other lists
-master_list['Title'] = master_list.apply(lambda row: row['Title'] if row['Title'] == "The Invisible Man" else row['Title'].replace('The ', ''), axis=1)
-master_list['Title'] = master_list['Title'].replace("&", "and", regex=True)
-master_list['Title'] = master_list['Title'].str.replace(r'\s*\([^)]*\)\s*', '', regex=True)
-master_list['Title'] = master_list['Title'].str.lower()
-#master_list['Title'] = master_list['Title'].str.replace(r'^the\s', '')
-master_list['Title'] = master_list['Title'].str.split(', or,').str[0]
-master_list['Title'] = master_list['Title'].str.split(':').str[0]
-master_list['Title'] = master_list['Title'].str.strip()  # Added line to remove leading and trailing spaces
+fic_nonfic_list['Title'] = fic_nonfic_list.apply(lambda row: row['Title'] if row['Title'] == "The Invisible Man" else row['Title'].replace('The ', ''), axis=1)
+fic_nonfic_list['Title'] = fic_nonfic_list['Title'].replace("&", "and", regex=True)
+fic_nonfic_list['Title'] = fic_nonfic_list['Title'].str.replace(r'\s*\([^)]*\)\s*', '', regex=True)
+fic_nonfic_list['Title'] = fic_nonfic_list['Title'].str.lower()
+#fic_nonfic_list['Title'] = fic_nonfic_list['Title'].str.replace(r'^the\s', '')
+fic_nonfic_list['Title'] = fic_nonfic_list['Title'].str.split(', or,').str[0]
+fic_nonfic_list['Title'] = fic_nonfic_list['Title'].str.split(':').str[0]
+fic_nonfic_list['Title'] = fic_nonfic_list['Title'].str.strip()  # Added line to remove leading and trailing spaces
 
-master_list.to_csv('master_list.csv', index=False)
+fic_nonfic_list.to_csv('fic_nonfic_list.csv', index=False)
+
+
+
+# Read the JSON file into a DataFrame
+with open('books.json') as json_file:
+    json_data = json.load(json_file)
+
+df_json = pd.DataFrame(json_data)
+
+# Apply the clean_title function to the 'Title' column
+df_json['title'] = df_json['title'].apply(clean_title)
+df_json['Title'] = df_json['title'].apply(clean_title)
+
+
+# Save the modified DataFrame back to a JSON file
+df_json.to_json('books_mod.json', orient='records', lines=True)
+
+
+#integrate the country data with fic_nonfiction list
+country_list = pd.merge(fic_nonfic_list, df_json, left_on='Title', right_on='title', how='left')
+country_list = country_list.drop
+
 
 ## Genre and Rank
 url = 'https://www.oclc.org/en/worldcat/library100/top500.html'
@@ -115,11 +159,14 @@ df_sell['Title'] = df_sell['Title'].str.strip()
 
 
 #merge dfs together
-merged_df = pd.merge(df_rank_genre, master_list, on='Title', how='left')
-merged_df = pd.merge(merged_df, df_sell, on='Title', how='left')
-merged_df['Approx. sales (in millions)'] = merged_df['Approx. sales (in millions)'].fillna('<10')
-merged_df['Bestseller'] = merged_df['Bestseller'].fillna('No')
-merged_df.to_csv('merged_df.csv', index=False)
+master_list = pd.merge(df_rank_genre, fic_nonfic_list, on='Title', how='left')
+master_list = pd.merge(master_list, df_sell, on='Title', how='left')
+master_list = pd.merge(master_list, df_json, on='Title', how='left')
+master_list['Approx. sales (in millions)'] = master_list['Approx. sales (in millions)'].fillna('<10')
+master_list['Bestseller'] = master_list['Bestseller'].fillna('No')
+
+master_list = master_list[['Title', 'Author', 'countries', 'Rank', 'Genre', 'first_year_published', 'Approx. sales (in millions)', 'Bestseller']]
+master_list.to_csv('master_list.csv', index=False)
 
 
 
