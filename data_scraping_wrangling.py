@@ -5,24 +5,54 @@ from bs4 import BeautifulSoup
 import json
 
 #Function for cleaning the titles
-def clean_title(title):
-    title = title.replace("20,000 Leagues Under the Sea", "Twenty Thousand Leagues Under the Sea")
-    title = title.replace("The Wonderful Wizard of Oz", "The Wizard of Oz")
-    title = title.replace("The Adventures of Oliver Twist", "Oliver Twist")
-    # Replace titles one by one
-    titles_to_replace = ["The Fellowship of the Ring", "The Two Towers", "The Return of the King"]
-    replacement_title = "The Lord of the Rings"
-    for old_title in titles_to_replace:
-        title = title.replace(old_title, replacement_title)
+# def clean_title(title):
+#     title = title.replace("20,000 Leagues Under the Sea", "Twenty Thousand Leagues Under the Sea")
+#     title = title.replace("The Wonderful Wizard of Oz", "The Wizard of Oz")
+#     title = title.replace("The Adventures of Oliver Twist", "Oliver Twist")
+#     # Replace titles one by one
+#     titles_to_replace = ["The Fellowship of the Ring", "The Two Towers", "The Return of the King"]
+#     replacement_title = "The Lord of the Rings"
+#     for old_title in titles_to_replace:
+#         title = title.replace(old_title, replacement_title)
     
-    title = title if title == "The Invisible Man" else title.replace('The ', '')
-    title = title.replace("&", "and")
-    title = re.sub(r'\s*\([^)]*\)\s*', '', title)
-    title = title.lower()
-    title = title.split(', or,')[0]
-    title = title.split(':')[0]
-    title = title.strip()
+#     title = title if title == "The Invisible Man" else title.replace('The ', '')
+#     title = title.replace("&", "and")
+#     title = re.sub(r'\s*\([^)]*\)\s*', '', title)
+#     title = title.lower()
+#     title = title.split(', or,')[0]
+#     title = title.split(':')[0]
+#     title = title.strip()
+#     return title
+
+# Modifying the clean_title function to be more comprehensive in handling title variations
+def clean_title(title):
+    # Common replacements and standardizations
+    replacements = {
+        "20,000 Leagues Under the Sea": "Twenty Thousand Leagues Under the Sea",
+        "The Wonderful Wizard of Oz": "The Wizard of Oz",
+        "The Adventures of Oliver Twist": "Oliver Twist",
+        "&": "and",
+        "harry potter and the philosopher's stone": "harry potter and the sorcerer's stone",
+        "-": " ",
+        "the adventures of pinocchio": "pinocchio",
+        # Add more replacements as necessary
+    }
+    for old_title, new_title in replacements.items():
+        title = title.replace(old_title, new_title)
+
+    # Handle 'The Lord of the Rings' series titles
+    lotr_titles = ["The Fellowship of the Ring", "The Two Towers", "The Return of the King"]
+    if title in lotr_titles:
+        title = "The Lord of the Rings"
+
+    # Remove parentheses and their contents, and lowercase the title
+    title = re.sub(r'\s*\([^)]*\)\s*', '', title).lower()
+
+    # Remove leading 'The ' and split on ', or,' and ':'
+    title = title.replace('the ', '').split(', or,')[0].split(':')[0].strip()
+
     return title
+
 
 
 ## Master List with Title(key), Author, Year
@@ -62,6 +92,7 @@ df_json = pd.DataFrame(json_data)
 # Apply the clean_title function to the 'Title' column
 df_json['title'] = df_json['title'].apply(clean_title)
 df_json['Title'] = df_json['title'].apply(clean_title)
+books_json['cleaned_title'] = books_json['title'].apply(clean_title)
 
 
 # Save the modified DataFrame back to a JSON file
@@ -150,12 +181,19 @@ df_sell.rename(columns={'Approximate sales': 'Approx. sales (in millions)', 'Boo
 df_sell['Bestseller'] = 'Yes'
 df_sell = df_sell.loc[:, ['Title', 'Approx. sales (in millions)', 'Bestseller']]
 
-df_sell['Title'] = df_sell['Title'].str.replace(r'\s*\([^)]*\)\s*', '', regex=True)
-df_sell['Title'] = df_sell['Title'].str.lower()
-df_sell['Title'] = df_sell['Title'].str.replace(r'^the\s', '')
-df_sell['Title'] = df_sell['Title'].str.split(', or,').str[0]
-df_sell['Title'] = df_sell['Title'].str.split(':').str[0]
-df_sell['Title'] = df_sell['Title'].str.strip() 
+# df_sell['Title'] = df_sell['Title'].str.replace(r'\s*\([^)]*\)\s*', '', regex=True)
+# df_sell['Title'] = df_sell['Title'].str.lower()
+# df_sell['Title'] = df_sell['Title'].str.replace(r'^the\s', '')
+# df_sell['Title'] = df_sell['Title'].str.split(', or,').str[0]
+# df_sell['Title'] = df_sell['Title'].str.split(':').str[0]
+# df_sell['Title'] = df_sell['Title'].str.strip() 
+
+# Applying the clean_title function to both datasets
+df_rank_genre['cleaned_title'] = df_rank_genre['Title'].apply(clean_title)
+
+# Displaying the first few rows after cleaning to verify the changes
+df_rank_genre[['Title', 'cleaned_title']].head(), books_json[['title', 'cleaned_title']].head()
+
 
 
 #merge dfs together
