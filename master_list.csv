@@ -1,510 +1,510 @@
 Title,Author,countries,Rank,Genre,first_year_published,Approx. sales (in millions),Bestseller
-don quixote,Miguel de Cervantes,Spanish,1,action,1605.0,<10,No
-alice's adventures in wonderland,Lewis Carroll,British,2,fantasy,1865.0,<10,No
-adventures of huckleberry finn,Mark Twain,American,3,action,1884.0,20-50,Yes
-adventures of tom sawyer,Mark Twain,American,4,action,1876.0,<10,No
-treasure island,Robert Louis Stevenson,British,5,action,1881.0,<10,No
-pride and prejudice,Jane Austen,British,6,romance,1813.0,20-50,Yes
-wuthering heights,Emily Brontë,British,7,gen_fiction,1847.0,<10,No
-jane eyre,Charlotte Brontë,British,8,romance,1847.0,<10,No
-moby dick,Herman Melville,American,9,gen_fiction,1851.0,<10,No
-scarlet letter,Nathaniel Hawthorne,American,10,gen_fiction,1850.0,<10,No
-gulliver's travels,Jonathan Swift,British,11,fantasy,1726.0,<10,No
-pilgrim's progress,John Bunyan,British,12,allegories,1678.0,<10,No
-christmas carol,Charles Dickens,British,13,gen_fiction,1843.0,<10,No
-david copperfield,Charles Dickens,British,14,bildung,1849.0,<10,No
-tale of two cities,Charles Dickens,British,15,history,1859.0,>100,Yes
-little women,Louisa May Alcott,American,16,gen_fiction,1868.0,<10,No
-great expectations,Charles Dickens,British,17,bildung,1861.0,<10,No
-hobbit,J.R.R. Tolkien,British,18,fantasy,1937.0,>100,Yes
-frankenstein,Mary Shelley,British,19,horror,1818.0,<10,No
-oliver twist,Charles Dickens,British,20,bildung,1837.0,<10,No
-uncle tom's cabin,Harriet Beecher Stowe,American,21,political,1852.0,<10,No
-crime and punishment,Fyodor Dostoyevsky,Russian,22,gen_fiction,1866.0,<10,No
-madame bovary,Gustave Flaubert,French,23,gen_fiction,1857.0,<10,No
-lord of rings,J.R.R. Tolkien,British,24,fantasy,1954.0,<10,No
-dracula,Bram Stoker,British,25,gen_fiction,1897.0,<10,No
-three musketeers,Alexandre Dumas,French,26,history,1844.0,<10,No
-brave new world,Aldous Huxley,British,27,gen_fiction,1932.0,<10,No
-war and peace,Leo Tolstoy,Russian,28,history,1869.0,20-50,Yes
-to kill mockingbird,Harper Lee,American,29,gen_fiction,1960.0,20-50,Yes
-wizard of oz,L. Frank Baum,American,30,fantasy,1900.0,<10,No
-les misérables,Victor Hugo,French,31,gen_fiction,1862.0,<10,No
-secret garden,Frances Hodgson Burnett,British,32,gen_fiction,1911.0,<10,No
-animal farm,George Orwell,British,33,political,1945.0,<10,No
-great gatsby,F. Scott Fitzgerald,American,34,gen_fiction,1925.0,20-50,Yes
-little prince,Antoine de Saint-Exupéry,French,35,gen_fiction,1943.0,>100,Yes
-call of wild,Jack London,American,36,action,1903.0,<10,No
-twenty thousand leagues under sea,Jules Verne,French,37,scifi,1870.0,<10,No
-anna karenina,Leo Tolstoy,Russian,38,romance,1877.0,<10,No
-wind in willows,Kenneth Grahame,British,39,fantasy,1908.0,20-50,Yes
-picture of dorian gray,Oscar Wilde,Irish,40,gen_fiction,1890.0,<10,No
-grapes of wrath,John Steinbeck,American,41,gen_fiction,1939.0,10-20,Yes
-sense and sensibility,Jane Austen,British,42,romance,1811.0,<10,No
-last of mohicans,James Fenimore Cooper,American,43,history,1826.0,<10,No
-tess of d'urbervilles,Thomas Hardy,British,44,gen_fiction,1891.0,<10,No
-harry potter and sorcerer's stone,J.K. Rowling,British,45,fantasy,1997.0,>100,Yes
-heidi,Johanna Spyri,Swiss,46,gen_fiction,1881.0,50-100,Yes
-ulysses,James Joyce,Irish,47,gen_fiction,1922.0,<10,No
-complete sherlock holmes,Arthur Conan Doyle,British,48,mystery,1887.0,<10,No
-count of monte cristo,Alexandre Dumas,French,49,history,1844.0,<10,No
-old man and sea,Ernest Hemingway,American,50,allegories,1952.0,10-20,Yes
-"lion, witch and wardrobe",C.S. Lewis,British,51,fantasy,1950.0,<10,No
-hunchback of notre dame,Victor Hugo,French,52,history,1831.0,<10,No
-pinocchio,Carlo Collodi,Italian,53,gen_fiction,1904.0,20-50,Yes
-one hundred years of solitude,Gabriel García Márquez,Colombian,54,gen_fiction,1967.0,50-100,Yes
-ivanhoe,Walter Scott,British,55,history,1820.0,<10,No
-red badge of courage,Stephen Crane,American,56,history,1895.0,<10,No
-anne of green gables,L.M. Montgomery,Canadian,57,gen_fiction,1908.0,50-100,Yes
-anne of green gables,L.M. Montgomery,Canadian,57,gen_fiction,1987.0,50-100,Yes
-black beauty,Anna Sewell,British,58,gen_fiction,1877.0,50-100,Yes
-black beauty,Anna Sewell,English,58,gen_fiction,1877.0,50-100,Yes
-peter pan,J.M. Barrie,British,59,fantasy,1902.0,<10,No
-farewell to arms,Ernest Hemingway,American,60,war,1929.0,<10,No
-house of seven gables,Nathaniel Hawthorne,American,61,gen_fiction,1851.0,<10,No
-lord of flies,William Golding,British,62,gen_fiction,1954.0,<10,No
-prince and pauper,Mark Twain,American,63,history,1881.0,<10,No
-portrait of artist as young man,James Joyce,Irish,64,bildung,1916.0,<10,No
-lord jim,Joseph Conrad,British,65,gen_fiction,1900.0,<10,No
-harry potter and chamber of secrets,J.K. Rowling,British,66,fantasy,1998.0,50-100,Yes
-red and black,Stendhal,French,67,bildung,1830.0,<10,No
-stranger,Albert Camus,French,68,gen_fiction,1946.0,10-20,Yes
-trial,Franz Kafka,Czech,69,allegories,1925.0,<10,No
-lady chatterley's lover,D.H. Lawrence,British,70,gen_fiction,1928.0,<10,No
-kidnapped,Robert Louis Stevenson,British,71,history,1886.0,<10,No
-catcher in rye,J.D. Salinger,American,72,bildung,1951.0,50-100,Yes
-fahrenheit 451,Ray Bradbury,American,73,scifi,1953.0,10-20,Yes
-journey to center of earth,Jules Verne,French,74,scifi,1864.0,<10,No
-vanity fair,William Makepeace Thackeray,British,75,gen_fiction,1848.0,<10,No
-all quiet on western front,Erich Maria Remarque,German,76,war,1929.0,<10,No
-gone with wind,Margaret Mitchell,American,77,history,1936.0,20-50,Yes
-my ántonia,Willa Cather,American,78,gen_fiction,,<10,No
-of mice and men,John Steinbeck,American,79,gen_fiction,1937.0,<10,No
-vicar of wakefield,Oliver Goldsmith,British,80,gen_fiction,1766.0,<10,No
-connecticut yankee in king arthur's court,Mark Twain,American,81,fantasy,,<10,No
-white fang,Jack London,American,82,action,1906.0,<10,No
-fathers and sons,Ivan Sergeevich Turgenev,Russian,83,gen_fiction,1862.0,<10,No
-doctor zhivago,Boris Leonidovich Pasternak,Russian,84,history,1957.0,<10,No
-decameron,Giovanni Boccaccio,Italian,85,gen_fiction,1350.0,<10,No
-nineteen eighty four,George Orwell,British,86,political,1949.0,<10,No
-jungle,Upton Sinclair,American,87,political,1906.0,<10,No
-da vinci code,Dan Brown,American,88,mystery,2006.0,50-100,Yes
-persuasion,Jane Austen,British,89,romance,1818.0,<10,No
-mansfield park,Jane Austen,British,90,romance,1814.0,<10,No
-candide,Voltaire,French,91,gen_fiction,1759.0,<10,No
-for whom bell tolls,Ernest Hemingway,American,92,war,1940.0,<10,No
-far from madding crowd,Thomas Hardy,British,93,romance,1874.0,<10,No
-lord of rings,J.R.R. Tolkien,British,94,fantasy,1954.0,<10,No
-return of native,Thomas Hardy,British,95,romance,1878.0,<10,No
-sons and lovers,D.H. Lawrence,British,96,gen_fiction,1913.0,<10,No
-charlotte's web,E.B. White,American,97,fantasy,1952.0,50-100,Yes
+don quixote,Miguel de Cervantes,Spain,1,action,1605.0,<10,No
+alice's adventures in wonderland,Lewis Carroll,United Kingdom,2,fantasy,1865.0,<10,No
+adventures of huckleberry finn,Mark Twain,United States of America,3,action,1884.0,20-50,Yes
+adventures of tom sawyer,Mark Twain,United States of America,4,action,1876.0,<10,No
+treasure island,Robert Louis Stevenson,United Kingdom,5,action,1881.0,<10,No
+pride and prejudice,Jane Austen,United Kingdom,6,romance,1813.0,20-50,Yes
+wuthering heights,Emily Brontë,United Kingdom,7,gen_fiction,1847.0,<10,No
+jane eyre,Charlotte Brontë,United Kingdom,8,romance,1847.0,<10,No
+moby dick,Herman Melville,United States of America,9,gen_fiction,1851.0,<10,No
+scarlet letter,Nathaniel Hawthorne,United States of America,10,gen_fiction,1850.0,<10,No
+gulliver's travels,Jonathan Swift,United Kingdom,11,fantasy,1726.0,<10,No
+pilgrim's progress,John Bunyan,United Kingdom,12,allegories,1678.0,<10,No
+christmas carol,Charles Dickens,United Kingdom,13,gen_fiction,1843.0,<10,No
+david copperfield,Charles Dickens,United Kingdom,14,bildung,1849.0,<10,No
+tale of two cities,Charles Dickens,United Kingdom,15,history,1859.0,>100,Yes
+little women,Louisa May Alcott,United States of America,16,gen_fiction,1868.0,<10,No
+great expectations,Charles Dickens,United Kingdom,17,bildung,1861.0,<10,No
+hobbit,J.R.R. Tolkien,United Kingdom,18,fantasy,1937.0,>100,Yes
+frankenstein,Mary Shelley,United Kingdom,19,horror,1818.0,<10,No
+oliver twist,Charles Dickens,United Kingdom,20,bildung,1837.0,<10,No
+uncle tom's cabin,Harriet Beecher Stowe,United States of America,21,political,1852.0,<10,No
+crime and punishment,Fyodor Dostoyevsky,Russia,22,gen_fiction,1866.0,<10,No
+madame bovary,Gustave Flaubert,France,23,gen_fiction,1857.0,<10,No
+lord of rings,J.R.R. Tolkien,United Kingdom,24,fantasy,1954.0,<10,No
+dracula,Bram Stoker,United Kingdom,25,gen_fiction,1897.0,<10,No
+three musketeers,Alexandre Dumas,France,26,history,1844.0,<10,No
+brave new world,Aldous Huxley,United Kingdom,27,gen_fiction,1932.0,<10,No
+war and peace,Leo Tolstoy,Russia,28,history,1869.0,20-50,Yes
+to kill mockingbird,Harper Lee,United States of America,29,gen_fiction,1960.0,20-50,Yes
+wizard of oz,L. Frank Baum,United States of America,30,fantasy,1900.0,<10,No
+les misérables,Victor Hugo,France,31,gen_fiction,1862.0,<10,No
+secret garden,Frances Hodgson Burnett,United Kingdom,32,gen_fiction,1911.0,<10,No
+animal farm,George Orwell,United Kingdom,33,political,1945.0,<10,No
+great gatsby,F. Scott Fitzgerald,United States of America,34,gen_fiction,1925.0,20-50,Yes
+little prince,Antoine de Saint-Exupéry,France,35,gen_fiction,1943.0,>100,Yes
+call of wild,Jack London,United States of America,36,action,1903.0,<10,No
+twenty thousand leagues under sea,Jules Verne,France,37,scifi,1870.0,<10,No
+anna karenina,Leo Tolstoy,Russia,38,romance,1877.0,<10,No
+wind in willows,Kenneth Grahame,United Kingdom,39,fantasy,1908.0,20-50,Yes
+picture of dorian gray,Oscar Wilde,Ireland,40,gen_fiction,1890.0,<10,No
+grapes of wrath,John Steinbeck,United States of America,41,gen_fiction,1939.0,10-20,Yes
+sense and sensibility,Jane Austen,United Kingdom,42,romance,1811.0,<10,No
+last of mohicans,James Fenimore Cooper,United States of America,43,history,1826.0,<10,No
+tess of d'urbervilles,Thomas Hardy,United Kingdom,44,gen_fiction,1891.0,<10,No
+harry potter and sorcerer's stone,J.K. Rowling,United Kingdom,45,fantasy,1997.0,>100,Yes
+heidi,Johanna Spyri,Switzerland,46,gen_fiction,1881.0,50-100,Yes
+ulysses,James Joyce,Ireland,47,gen_fiction,1922.0,<10,No
+complete sherlock holmes,Arthur Conan Doyle,United Kingdom,48,mystery,1887.0,<10,No
+count of monte cristo,Alexandre Dumas,France,49,history,1844.0,<10,No
+old man and sea,Ernest Hemingway,United States of America,50,allegories,1952.0,10-20,Yes
+"lion, witch and wardrobe",C.S. Lewis,United Kingdom,51,fantasy,1950.0,<10,No
+hunchback of notre dame,Victor Hugo,France,52,history,1831.0,<10,No
+pinocchio,Carlo Collodi,Italy,53,gen_fiction,1904.0,20-50,Yes
+one hundred years of solitude,Gabriel García Márquez,,54,gen_fiction,1967.0,50-100,Yes
+ivanhoe,Walter Scott,United Kingdom,55,history,1820.0,<10,No
+red badge of courage,Stephen Crane,United States of America,56,history,1895.0,<10,No
+anne of green gables,L.M. Montgomery,Canada,57,gen_fiction,1908.0,50-100,Yes
+anne of green gables,L.M. Montgomery,Canada,57,gen_fiction,1987.0,50-100,Yes
+black beauty,Anna Sewell,United Kingdom,58,gen_fiction,1877.0,50-100,Yes
+black beauty,Anna Sewell,England,58,gen_fiction,1877.0,50-100,Yes
+peter pan,J.M. Barrie,United Kingdom,59,fantasy,1902.0,<10,No
+farewell to arms,Ernest Hemingway,United States of America,60,war,1929.0,<10,No
+house of seven gables,Nathaniel Hawthorne,United States of America,61,gen_fiction,1851.0,<10,No
+lord of flies,William Golding,United Kingdom,62,gen_fiction,1954.0,<10,No
+prince and pauper,Mark Twain,United States of America,63,history,1881.0,<10,No
+portrait of artist as young man,James Joyce,Ireland,64,bildung,1916.0,<10,No
+lord jim,Joseph Conrad,United Kingdom,65,gen_fiction,1900.0,<10,No
+harry potter and chamber of secrets,J.K. Rowling,United Kingdom,66,fantasy,1998.0,50-100,Yes
+red and black,Stendhal,France,67,bildung,1830.0,<10,No
+stranger,Albert Camus,France,68,gen_fiction,1946.0,10-20,Yes
+trial,Franz Kafka,Czech Republic,69,allegories,1925.0,<10,No
+lady chatterley's lover,D.H. Lawrence,United Kingdom,70,gen_fiction,1928.0,<10,No
+kidnapped,Robert Louis Stevenson,United Kingdom,71,history,1886.0,<10,No
+catcher in rye,J.D. Salinger,United States of America,72,bildung,1951.0,50-100,Yes
+fahrenheit 451,Ray Bradbury,United States of America,73,scifi,1953.0,10-20,Yes
+journey to center of earth,Jules Verne,France,74,scifi,1864.0,<10,No
+vanity fair,William Makepeace Thackeray,United Kingdom,75,gen_fiction,1848.0,<10,No
+all quiet on western front,Erich Maria Remarque,Germany,76,war,1929.0,<10,No
+gone with wind,Margaret Mitchell,United States of America,77,history,1936.0,20-50,Yes
+my ántonia,Willa Cather,United States of America,78,gen_fiction,,<10,No
+of mice and men,John Steinbeck,United States of America,79,gen_fiction,1937.0,<10,No
+vicar of wakefield,Oliver Goldsmith,United Kingdom,80,gen_fiction,1766.0,<10,No
+connecticut yankee in king arthur's court,Mark Twain,United States of America,81,fantasy,,<10,No
+white fang,Jack London,United States of America,82,action,1906.0,<10,No
+fathers and sons,Ivan Sergeevich Turgenev,Russia,83,gen_fiction,1862.0,<10,No
+doctor zhivago,Boris Leonidovich Pasternak,Russia,84,history,1957.0,<10,No
+decameron,Giovanni Boccaccio,Italy,85,gen_fiction,1350.0,<10,No
+nineteen eighty four,George Orwell,United Kingdom,86,political,1949.0,<10,No
+jungle,Upton Sinclair,United States of America,87,political,1906.0,<10,No
+da vinci code,Dan Brown,United States of America,88,mystery,2006.0,50-100,Yes
+persuasion,Jane Austen,United Kingdom,89,romance,1818.0,<10,No
+mansfield park,Jane Austen,United Kingdom,90,romance,1814.0,<10,No
+candide,Voltaire,France,91,gen_fiction,1759.0,<10,No
+for whom bell tolls,Ernest Hemingway,United States of America,92,war,1940.0,<10,No
+far from madding crowd,Thomas Hardy,United Kingdom,93,romance,1874.0,<10,No
+lord of rings,J.R.R. Tolkien,United Kingdom,94,fantasy,1954.0,<10,No
+return of native,Thomas Hardy,United Kingdom,95,romance,1878.0,<10,No
+sons and lovers,D.H. Lawrence,United Kingdom,96,gen_fiction,1913.0,<10,No
+charlotte's web,E.B. White,United States of America,97,fantasy,1952.0,50-100,Yes
 swiss family robinson,Johann David Wyss,,98,gen_fiction,,<10,No
-bleak house,Charles Dickens,British,99,gen_fiction,1852.0,<10,No
+bleak house,Charles Dickens,United Kingdom,99,gen_fiction,1852.0,<10,No
 père goriot,Honoré de Balzac,,100,bildung,,<10,No
-utopia,Thomas More,British,101,gen_fiction,1516.0,<10,No
-tom jones,Henry Fielding,British,102,gen_fiction,1749.0,<10,No
-harry potter and prisoner of azkaban,J.K. Rowling,British,103,fantasy,1999.0,50-100,Yes
-kim,Rudyard Kipling,British,104,action,1901.0,<10,No
-sound and fury,William Faulkner,American,105,gen_fiction,1929.0,<10,No
-harry potter and goblet of fire,J.K. Rowling,British,106,fantasy,2000.0,50-100,Yes
-mill on floss,George Eliot,British,107,gen_fiction,1860.0,<10,No
-wrinkle in time,Madeleine L'Engle,American,108,scifi,1962.0,10-20,Yes
-hound of baskervilles,Arthur Conan Doyle,British,109,mystery,1901.0,<10,No
-lord of rings,J.R.R. Tolkien,British,110,fantasy,1954.0,<10,No
-war of worlds,H.G. Wells,British,111,scifi,1898.0,<10,No
-middlemarch,George Eliot,British,112,gen_fiction,1871.0,<10,No
-age of innocence,Edith Wharton,American,113,gen_fiction,1920.0,<10,No
-color purple,Alice Walker,American,114,gen_fiction,1982.0,<10,No
-northanger abbey,Jane Austen,English,115,romance,1818.0,<10,No
-east of eden,John Steinbeck,American,116,gen_fiction,1952.0,<10,No
-on road,Jack Kerouac,American,117,autobio,1957.0,<10,No
-catch 22,Joseph Heller,American,118,war,1961.0,10-20,Yes
-around world in eighty days,Jules Verne,French,119,action,1873.0,<10,No
-hard times,Charles Dickens,American,120,gen_fiction,1970.0,<10,No
-hard times,Charles Dickens,British,120,gen_fiction,1854.0,<10,No
-beloved,Toni Morrison,American,121,history,1987.0,<10,No
-mrs dalloway,Virginia Woolf,British,122,gen_fiction,1925.0,<10,No
-to lighthouse,Virginia Woolf,British,123,gen_fiction,1927.0,<10,No
-magician's nephew,C.S. Lewis,British,124,fantasy,1955.0,<10,No
-harry potter and order of phoenix,J.K. Rowling,British,125,fantasy,2003.0,50-100,Yes
-sun also rises,Ernest Hemingway,American,126,history,1926.0,<10,No
-good earth,Pearl S. Buck,American,127,gen_fiction,1931.0,<10,No
-silas marner,George Eliot,British,128,gen_fiction,1861.0,<10,No
-love in time of cholera,Gabriel García Márquez,Colombian,129,romance,1985.0,<10,No
-rebecca,Daphne Du Maurier,British,130,romance,1938.0,20-50,Yes
-jude obscure,Thomas Hardy,British,131,gen_fiction,1895.0,<10,No
-twilight,Stephenie Meyer,American,132,romance,2005.0,<10,No
-passage to india,E.M. Forster,British,133,political,1924.0,<10,No
-plague,Albert Camus,French,134,gen_fiction,1947.0,10-20,Yes
-nicholas nickleby,Charles Dickens,British,135,bildung,1838.0,<10,No
-pearl,John Steinbeck,American,136,gen_fiction,1947.0,<10,No
-ethan frome,Edith Wharton,American,137,gen_fiction,1911.0,<10,No
-tale of genji,Murasaki Shikibu,Japanese,138,gen_fiction,1000.0,<10,No
-giver,Lois Lowry,American,139,scifi,1993.0,10-20,Yes
-alchemist,Paulo Coelho,Brazilian,140,gen_fiction,1988.0,50-100,Yes
-strange case of dr jekyll and mr hyde,Robert Louis Stevenson,British,141,gen_fiction,1886.0,<10,No
-robinson crusoe,Daniel Defoe,British,142,action,1719.0,<10,No
-tender is night,F. Scott Fitzgerald,American,143,gen_fiction,1934.0,<10,No
-idiot,Fyodor Dostoyevsky,Russian,144,history,1868.0,<10,No
-hatchet,Gary Paulsen,American,145,action,1987.0,<10,No
-kite runner,Khaled Hosseini,Afghan,146,bildung,2003.0,20-50,Yes
-one flew over cuckoo's nest,Ken Kesey,American,147,gen_fiction,1962.0,<10,No
-portrait of lady,Henry James,American,148,gen_fiction,1881.0,<10,No
-outsiders,S.E. Hinton,American,149,gen_fiction,1967.0,10-20,Yes
-ben hur,Lew Wallace,American,150,history,1880.0,<10,No
-mayor of casterbridge,Thomas Hardy,British,151,gen_fiction,1886.0,<10,No
-"cry, beloved country",Alan Paton,South African,152,political,1948.0,<10,No
-last battle,C.S. Lewis,British,153,fantasy,1956.0,<10,No
-captains courageous,Rudyard Kipling,British,154,bildung,,<10,No
-castle,Franz Kafka,Czech,155,allegories,1926.0,<10,No
-metamorphosis,Franz Kafka,Czech,156,gen_fiction,1915.0,<10,No
-magic mountain,Thomas Mann,German,157,bildung,1924.0,<10,No
-james and giant peach,Roald Dahl,British,158,gen_fiction,1961.0,20-50,Yes
-horse and his boy,C.S. Lewis,British,159,fantasy,1954.0,<10,No
-angels and demons,Dan Brown,American,160,thrillers,,20-50,Yes
-voyage of dawn treader,C.S. Lewis,British,161,fantasy,1952.0,<10,No
-bell jar,Sylvia Plath,American,162,gen_fiction,1963.0,<10,No
-women in love,D.H. Lawrence,British,163,gen_fiction,1920.0,<10,No
-yearling,Marjorie Kinnan Rawlings,American,164,gen_fiction,1938.0,<10,No
-o pioneers!,Willa Cather,American,165,gen_fiction,1913.0,<10,No
-handmaid's tale,Margaret Atwood,Canadian,166,gen_fiction,1985.0,<10,No
-moonstone,Wilkie Collins,British,167,mystery,1868.0,<10,No
-old curiosity shop,Charles Dickens,British,168,gen_fiction,1941.0,<10,No
-little dorrit,Charles Dickens,British,169,gen_fiction,1857.0,<10,No
-prince caspian,C.S. Lewis,British,170,fantasy,1951.0,<10,No
-sister carrie,Theodore Dreiser,American,171,gen_fiction,1900.0,<10,No
-silver chair,C.S. Lewis,British,172,fantasy,1953.0,<10,No
-hunger games,Suzanne Collins,American,173,scifi,2008.0,20-50,Yes
-this side of paradise,F. Scott Fitzgerald,American,174,bildung,1920.0,<10,No
+utopia,Thomas More,United Kingdom,101,gen_fiction,1516.0,<10,No
+tom jones,Henry Fielding,United Kingdom,102,gen_fiction,1749.0,<10,No
+harry potter and prisoner of azkaban,J.K. Rowling,United Kingdom,103,fantasy,1999.0,50-100,Yes
+kim,Rudyard Kipling,United Kingdom,104,action,1901.0,<10,No
+sound and fury,William Faulkner,United States of America,105,gen_fiction,1929.0,<10,No
+harry potter and goblet of fire,J.K. Rowling,United Kingdom,106,fantasy,2000.0,50-100,Yes
+mill on floss,George Eliot,United Kingdom,107,gen_fiction,1860.0,<10,No
+wrinkle in time,Madeleine L'Engle,United States of America,108,scifi,1962.0,10-20,Yes
+hound of baskervilles,Arthur Conan Doyle,United Kingdom,109,mystery,1901.0,<10,No
+lord of rings,J.R.R. Tolkien,United Kingdom,110,fantasy,1954.0,<10,No
+war of worlds,H.G. Wells,United Kingdom,111,scifi,1898.0,<10,No
+middlemarch,George Eliot,United Kingdom,112,gen_fiction,1871.0,<10,No
+age of innocence,Edith Wharton,United States of America,113,gen_fiction,1920.0,<10,No
+color purple,Alice Walker,United States of America,114,gen_fiction,1982.0,<10,No
+northanger abbey,Jane Austen,England,115,romance,1818.0,<10,No
+east of eden,John Steinbeck,United States of America,116,gen_fiction,1952.0,<10,No
+on road,Jack Kerouac,United States of America,117,autobio,1957.0,<10,No
+catch 22,Joseph Heller,United States of America,118,war,1961.0,10-20,Yes
+around world in eighty days,Jules Verne,France,119,action,1873.0,<10,No
+hard times,Charles Dickens,United States of America,120,gen_fiction,1970.0,<10,No
+hard times,Charles Dickens,United Kingdom,120,gen_fiction,1854.0,<10,No
+beloved,Toni Morrison,United States of America,121,history,1987.0,<10,No
+mrs dalloway,Virginia Woolf,United Kingdom,122,gen_fiction,1925.0,<10,No
+to lighthouse,Virginia Woolf,United Kingdom,123,gen_fiction,1927.0,<10,No
+magician's nephew,C.S. Lewis,United Kingdom,124,fantasy,1955.0,<10,No
+harry potter and order of phoenix,J.K. Rowling,United Kingdom,125,fantasy,2003.0,50-100,Yes
+sun also rises,Ernest Hemingway,United States of America,126,history,1926.0,<10,No
+good earth,Pearl S. Buck,United States of America,127,gen_fiction,1931.0,<10,No
+silas marner,George Eliot,United Kingdom,128,gen_fiction,1861.0,<10,No
+love in time of cholera,Gabriel García Márquez,,129,romance,1985.0,<10,No
+rebecca,Daphne Du Maurier,United Kingdom,130,romance,1938.0,20-50,Yes
+jude obscure,Thomas Hardy,United Kingdom,131,gen_fiction,1895.0,<10,No
+twilight,Stephenie Meyer,United States of America,132,romance,2005.0,<10,No
+passage to india,E.M. Forster,United Kingdom,133,political,1924.0,<10,No
+plague,Albert Camus,France,134,gen_fiction,1947.0,10-20,Yes
+nicholas nickleby,Charles Dickens,United Kingdom,135,bildung,1838.0,<10,No
+pearl,John Steinbeck,United States of America,136,gen_fiction,1947.0,<10,No
+ethan frome,Edith Wharton,United States of America,137,gen_fiction,1911.0,<10,No
+tale of genji,Murasaki Shikibu,Japan,138,gen_fiction,1000.0,<10,No
+giver,Lois Lowry,United States of America,139,scifi,1993.0,10-20,Yes
+alchemist,Paulo Coelho,Brazil,140,gen_fiction,1988.0,50-100,Yes
+strange case of dr jekyll and mr hyde,Robert Louis Stevenson,United Kingdom,141,gen_fiction,1886.0,<10,No
+robinson crusoe,Daniel Defoe,United Kingdom,142,action,1719.0,<10,No
+tender is night,F. Scott Fitzgerald,United States of America,143,gen_fiction,1934.0,<10,No
+idiot,Fyodor Dostoyevsky,Russia,144,history,1868.0,<10,No
+hatchet,Gary Paulsen,United States of America,145,action,1987.0,<10,No
+kite runner,Khaled Hosseini,Afghanistan,146,bildung,2003.0,20-50,Yes
+one flew over cuckoo's nest,Ken Kesey,United States of America,147,gen_fiction,1962.0,<10,No
+portrait of lady,Henry James,United States of America,148,gen_fiction,1881.0,<10,No
+outsiders,S.E. Hinton,United States of America,149,gen_fiction,1967.0,10-20,Yes
+ben hur,Lew Wallace,United States of America,150,history,1880.0,<10,No
+mayor of casterbridge,Thomas Hardy,United Kingdom,151,gen_fiction,1886.0,<10,No
+"cry, beloved country",Alan Paton,South Africa,152,political,1948.0,<10,No
+last battle,C.S. Lewis,United Kingdom,153,fantasy,1956.0,<10,No
+captains courageous,Rudyard Kipling,United Kingdom,154,bildung,,<10,No
+castle,Franz Kafka,Czech Republic,155,allegories,1926.0,<10,No
+metamorphosis,Franz Kafka,Czech Republic,156,gen_fiction,1915.0,<10,No
+magic mountain,Thomas Mann,Germany,157,bildung,1924.0,<10,No
+james and giant peach,Roald Dahl,United Kingdom,158,gen_fiction,1961.0,20-50,Yes
+horse and his boy,C.S. Lewis,United Kingdom,159,fantasy,1954.0,<10,No
+angels and demons,Dan Brown,United States of America,160,thrillers,,20-50,Yes
+voyage of dawn treader,C.S. Lewis,United Kingdom,161,fantasy,1952.0,<10,No
+bell jar,Sylvia Plath,United States of America,162,gen_fiction,1963.0,<10,No
+women in love,D.H. Lawrence,United Kingdom,163,gen_fiction,1920.0,<10,No
+yearling,Marjorie Kinnan Rawlings,United States of America,164,gen_fiction,1938.0,<10,No
+o pioneers!,Willa Cather,United States of America,165,gen_fiction,1913.0,<10,No
+handmaid's tale,Margaret Atwood,Canada,166,gen_fiction,1985.0,<10,No
+moonstone,Wilkie Collins,United Kingdom,167,mystery,1868.0,<10,No
+old curiosity shop,Charles Dickens,United Kingdom,168,gen_fiction,1941.0,<10,No
+little dorrit,Charles Dickens,United Kingdom,169,gen_fiction,1857.0,<10,No
+prince caspian,C.S. Lewis,United Kingdom,170,fantasy,1951.0,<10,No
+sister carrie,Theodore Dreiser,United States of America,171,gen_fiction,1900.0,<10,No
+silver chair,C.S. Lewis,United Kingdom,172,fantasy,1953.0,<10,No
+hunger games,Suzanne Collins,United States of America,173,scifi,2008.0,20-50,Yes
+this side of paradise,F. Scott Fitzgerald,United States of America,174,bildung,1920.0,<10,No
 eugénie grandet,Honoré de Balzac,,175,allegories,,<10,No
-of human bondage,W. Somerset Maugham,British,176,bildung,1915.0,<10,No
-dream of red chamber,Cao Xueqin,Chinese,177,gen_fiction,1791.0,>100,Yes
-life of pi,Yann Martel,Canadian,178,gen_fiction,2001.0,10-20,Yes
-harry potter and deathly hallows,J.K. Rowling,British,179,fantasy,2007.0,50-100,Yes
-invisible man,Ralph Ellison,American,180,gen_fiction,1952.0,<10,No
-invisible man,Ralph Ellison,British,180,gen_fiction,1897.0,<10,No
-steppenwolf,Hermann Hesse,German,181,gen_fiction,1927.0,<10,No
-sorrows of young werther,Johann Wolfgang von Goethe,German,182,autobio,1774.0,<10,No
-bridge to terabithia,Katherine Paterson,American,183,fantasy,1977.0,<10,No
-invisible man,H.G. Wells,American,184,gen_fiction,1952.0,<10,No
-invisible man,H.G. Wells,British,184,gen_fiction,1897.0,<10,No
-holes,Louis Sachar,American,185,gen_fiction,1998.0,<10,No
-siddhartha,Hermann Hesse,German,186,gen_fiction,1922.0,<10,No
-tree grows in brooklyn,Betty Smith,American,187,gen_fiction,1943.0,<10,No
-through looking glass,Lewis Carroll,British,188,fantasy,1871.0,<10,No
-in cold blood,Truman Capote,American,189,gen_fiction,1966.0,<10,No
-house of spirits,Isabel Allende,Chilean,190,gen_fiction,1982.0,<10,No
-adam bede,George Eliot,British,191,romance,1859.0,<10,No
-betrothed,Alessandro Manzoni,Italian,192,history,1842.0,<10,No
-book thief,Markus Zusak,German,193,history,2005.0,10-20,Yes
-their eyes were watching god,Zora Neale Hurston,American,194,gen_fiction,1937.0,<10,No
-one day in life of ivan denisovich,Aleksandr Isaevich Solzhenitsyn,Russian,195,gen_fiction,1962.0,<10,No
-sea wolf,Jack London,American,196,gen_fiction,1904.0,<10,No
-catching fire,Suzanne Collins,American,197,scifi,,20-50,Yes
-"roll of thunder, hear my cry",Mildred D. Taylor,American,198,history,1976.0,<10,No
-death comes for archbishop,Willa Cather,American,199,history,1927.0,<10,No
-house of mirth,Edith Wharton,American,200,gen_fiction,1905.0,<10,No
-light in august,William Faulkner,American,201,gen_fiction,1932.0,<10,No
-pickwick papers,Charles Dickens,British,202,gen_fiction,1837.0,<10,No
+of human bondage,W. Somerset Maugham,United Kingdom,176,bildung,1915.0,<10,No
+dream of red chamber,Cao Xueqin,China,177,gen_fiction,1791.0,>100,Yes
+life of pi,Yann Martel,Canada,178,gen_fiction,2001.0,10-20,Yes
+harry potter and deathly hallows,J.K. Rowling,United Kingdom,179,fantasy,2007.0,50-100,Yes
+invisible man,Ralph Ellison,United States of America,180,gen_fiction,1952.0,<10,No
+invisible man,Ralph Ellison,United Kingdom,180,gen_fiction,1897.0,<10,No
+steppenwolf,Hermann Hesse,Germany,181,gen_fiction,1927.0,<10,No
+sorrows of young werther,Johann Wolfgang von Goethe,Germany,182,autobio,1774.0,<10,No
+bridge to terabithia,Katherine Paterson,United States of America,183,fantasy,1977.0,<10,No
+invisible man,H.G. Wells,United States of America,184,gen_fiction,1952.0,<10,No
+invisible man,H.G. Wells,United Kingdom,184,gen_fiction,1897.0,<10,No
+holes,Louis Sachar,United States of America,185,gen_fiction,1998.0,<10,No
+siddhartha,Hermann Hesse,Germany,186,gen_fiction,1922.0,<10,No
+tree grows in brooklyn,Betty Smith,United States of America,187,gen_fiction,1943.0,<10,No
+through looking glass,Lewis Carroll,United Kingdom,188,fantasy,1871.0,<10,No
+in cold blood,Truman Capote,United States of America,189,gen_fiction,1966.0,<10,No
+house of spirits,Isabel Allende,Chile,190,gen_fiction,1982.0,<10,No
+adam bede,George Eliot,United Kingdom,191,romance,1859.0,<10,No
+betrothed,Alessandro Manzoni,Italy,192,history,1842.0,<10,No
+book thief,Markus Zusak,Germany,193,history,2005.0,10-20,Yes
+their eyes were watching god,Zora Neale Hurston,United States of America,194,gen_fiction,1937.0,<10,No
+one day in life of ivan denisovich,Aleksandr Isaevich Solzhenitsyn,Russia,195,gen_fiction,1962.0,<10,No
+sea wolf,Jack London,United States of America,196,gen_fiction,1904.0,<10,No
+catching fire,Suzanne Collins,United States of America,197,scifi,,20-50,Yes
+"roll of thunder, hear my cry",Mildred D. Taylor,United States of America,198,history,1976.0,<10,No
+death comes for archbishop,Willa Cather,United States of America,199,history,1927.0,<10,No
+house of mirth,Edith Wharton,United States of America,200,gen_fiction,1905.0,<10,No
+light in august,William Faulkner,United States of America,201,gen_fiction,1932.0,<10,No
+pickwick papers,Charles Dickens,United Kingdom,202,gen_fiction,1837.0,<10,No
 remembrance of things past,Marcel Proust,,203,autobio,,<10,No
-barchester towers,Anthony Trollope,British,204,gen_fiction,1857.0,<10,No
-bridge of san luis rey,Thornton Wilder,American,205,history,1927.0,<10,No
-help,Kathryn Stockett,American,206,history,2009.0,10-20,Yes
-murder on orient express,Agatha Christie,British,207,mystery,1934.0,<10,No
-lovely bones,Alice Sebold,American,208,gen_fiction,2002.0,10-20,Yes
-appeal,John Grisham,American,209,gen_fiction,,<10,No
-dombey and son,Charles Dickens,British,210,gen_fiction,1848.0,<10,No
-slaughterhouse five,Kurt Vonnegut,American,211,scifi,1969.0,<10,No
-american tragedy,Theodore Dreiser,American,212,romance,1925.0,<10,No
-bluest eye,Toni Morrison,American,213,bildung,1970.0,<10,No
-little house in big woods,Laura Ingalls Wilder,American,214,history,2005.0,<10,No
-pippi longstocking,Astrid Lindgren,Swedish,215,gen_fiction,1945.0,<10,No
-germinal,Émile Zola,French,216,political,1885.0,<10,No
-heart is lonely hunter,Carson McCullers,American,217,gen_fiction,1940.0,<10,No
-woman in white,Wilkie Collins,British,218,gen_fiction,1860.0,<10,No
-"absalom, absalom!",William Faulkner,American,219,gen_fiction,1936.0,<10,No
-painted house,John Grisham,American,220,gen_fiction,,<10,No
-girl with dragon tattoo,Stieg Larsson,Swedish,221,thrillers,2005.0,20-50,Yes
-room with view,E.M. Forster,British,222,gen_fiction,1908.0,<10,No
-watership down,Richard Adams,British,223,allegories,1972.0,50-100,Yes
-memoirs of geisha,Arthur Golden,American,224,history,1997.0,<10,No
-our mutual friend,Charles Dickens,British,225,romance,1865.0,<10,No
-babbitt,Sinclair Lewis,American,226,gen_fiction,1922.0,<10,No
-red pony,John Steinbeck,American,227,bildung,,<10,No
-all king's men,Robert Penn Warren,American,228,political,1946.0,<10,No
-things fall apart,Chinua Achebe,Nigerian,229,history,1958.0,20-50,Yes
-things fall apart,Chinua Achebe,Nigerian,229,history,1958.0,20-50,Yes
+barchester towers,Anthony Trollope,United Kingdom,204,gen_fiction,1857.0,<10,No
+bridge of san luis rey,Thornton Wilder,United States of America,205,history,1927.0,<10,No
+help,Kathryn Stockett,United States of America,206,history,2009.0,10-20,Yes
+murder on orient express,Agatha Christie,United Kingdom,207,mystery,1934.0,<10,No
+lovely bones,Alice Sebold,United States of America,208,gen_fiction,2002.0,10-20,Yes
+appeal,John Grisham,United States of America,209,gen_fiction,,<10,No
+dombey and son,Charles Dickens,United Kingdom,210,gen_fiction,1848.0,<10,No
+slaughterhouse five,Kurt Vonnegut,United States of America,211,scifi,1969.0,<10,No
+american tragedy,Theodore Dreiser,United States of America,212,romance,1925.0,<10,No
+bluest eye,Toni Morrison,United States of America,213,bildung,1970.0,<10,No
+little house in big woods,Laura Ingalls Wilder,United States of America,214,history,2005.0,<10,No
+pippi longstocking,Astrid Lindgren,Sweden,215,gen_fiction,1945.0,<10,No
+germinal,Émile Zola,France,216,political,1885.0,<10,No
+heart is lonely hunter,Carson McCullers,United States of America,217,gen_fiction,1940.0,<10,No
+woman in white,Wilkie Collins,United Kingdom,218,gen_fiction,1860.0,<10,No
+"absalom, absalom!",William Faulkner,United States of America,219,gen_fiction,1936.0,<10,No
+painted house,John Grisham,United States of America,220,gen_fiction,,<10,No
+girl with dragon tattoo,Stieg Larsson,Sweden,221,thrillers,2005.0,20-50,Yes
+room with view,E.M. Forster,United Kingdom,222,gen_fiction,1908.0,<10,No
+watership down,Richard Adams,United Kingdom,223,allegories,1972.0,50-100,Yes
+memoirs of geisha,Arthur Golden,United States of America,224,history,1997.0,<10,No
+our mutual friend,Charles Dickens,United Kingdom,225,romance,1865.0,<10,No
+babbitt,Sinclair Lewis,United States of America,226,gen_fiction,1922.0,<10,No
+red pony,John Steinbeck,United States of America,227,bildung,,<10,No
+all king's men,Robert Penn Warren,United States of America,228,political,1946.0,<10,No
+things fall apart,Chinua Achebe,Nigeria,229,history,1958.0,20-50,Yes
+things fall apart,Chinua Achebe,Nigeria,229,history,1958.0,20-50,Yes
 lorna doone,R.D. Blackmore,,230,history,,<10,No
 johnny tremain,Esther Forbes,,231,history,,<10,No
-anne of avonlea,L.M. Montgomery,Canadian,232,gen_fiction,,<10,No
+anne of avonlea,L.M. Montgomery,Canada,232,gen_fiction,,<10,No
 tuck everlasting,Natalie Babbitt,,233,fantasy,,<10,No
-bfg,Roald Dahl,British,234,gen_fiction,1982.0,<10,No
-cannery row,John Steinbeck,American,235,romance,1945.0,<10,No
-joy luck club,Amy Tan,American,236,gen_fiction,1989.0,<10,No
-silmarillion,J.R.R. Tolkien,British,237,fantasy,,<10,No
-roots,Alex Haley,American,238,gen_fiction,1977.0,<10,No
-little house on prairie,Laura Ingalls Wilder,American,239,autobio,1935.0,<10,No
-native son,Richard Wright,American,240,gen_fiction,1940.0,<10,No
-stuart little,E.B. White,American,241,action,,<10,No
-cross fire,James Patterson,American,242,gen_fiction,,<10,No
-power and glory,Graham Greene,British,243,mystery,1940.0,<10,No
-clockwork orange,Anthony Burgess,British,244,scifi,1962.0,<10,No
-phantom of opera,Gaston Leroux,French,245,horror,1909.0,<10,No
-martian chronicles,Ray Bradbury,American,246,scifi,1950.0,<10,No
-road,Cormac McCarthy,American,247,gen_fiction,2006.0,<10,No
-way of all flesh,Samuel Butler,British,248,gen_fiction,1903.0,<10,No
-diary of wimpy kid,Jeff Kinney,American,249,gen_fiction,2007.0,<10,No
-villette,Charlotte Brontë,British,250,gen_fiction,1853.0,<10,No
-curious incident of dog in night time,Mark Haddon,British,251,mystery,2003.0,<10,No
-mysterious island,Jules Verne,French,252,scifi,,<10,No
-song of solomon,Toni Morrison,American,253,gen_fiction,1977.0,<10,No
-nana,Émile Zola,French,254,gen_fiction,1880.0,<10,No
-quo vadis,Henryk Sienkiewicz,Polish,255,history,1896.0,<10,No
-main street,Sinclair Lewis,American,256,gen_fiction,1920.0,<10,No
-matilda,Roald Dahl,British,257,gen_fiction,1988.0,10-20,Yes
-lolita,Vladimir Vladimirovich Nabokov,American,258,romance,1955.0,50-100,Yes
-paper towns,John Green,American,259,bildung,,<10,No
+bfg,Roald Dahl,United Kingdom,234,gen_fiction,1982.0,<10,No
+cannery row,John Steinbeck,United States of America,235,romance,1945.0,<10,No
+joy luck club,Amy Tan,United States of America,236,gen_fiction,1989.0,<10,No
+silmarillion,J.R.R. Tolkien,United Kingdom,237,fantasy,,<10,No
+roots,Alex Haley,United States of America,238,gen_fiction,1977.0,<10,No
+little house on prairie,Laura Ingalls Wilder,United States of America,239,autobio,1935.0,<10,No
+native son,Richard Wright,United States of America,240,gen_fiction,1940.0,<10,No
+stuart little,E.B. White,United States of America,241,action,,<10,No
+cross fire,James Patterson,United States of America,242,gen_fiction,,<10,No
+power and glory,Graham Greene,United Kingdom,243,mystery,1940.0,<10,No
+clockwork orange,Anthony Burgess,United Kingdom,244,scifi,1962.0,<10,No
+phantom of opera,Gaston Leroux,France,245,horror,1909.0,<10,No
+martian chronicles,Ray Bradbury,United States of America,246,scifi,1950.0,<10,No
+road,Cormac McCarthy,United States of America,247,gen_fiction,2006.0,<10,No
+way of all flesh,Samuel Butler,United Kingdom,248,gen_fiction,1903.0,<10,No
+diary of wimpy kid,Jeff Kinney,United States of America,249,gen_fiction,2007.0,<10,No
+villette,Charlotte Brontë,United Kingdom,250,gen_fiction,1853.0,<10,No
+curious incident of dog in night time,Mark Haddon,United Kingdom,251,mystery,2003.0,<10,No
+mysterious island,Jules Verne,France,252,scifi,,<10,No
+song of solomon,Toni Morrison,United States of America,253,gen_fiction,1977.0,<10,No
+nana,Émile Zola,France,254,gen_fiction,1880.0,<10,No
+quo vadis,Henryk Sienkiewicz,Poland,255,history,1896.0,<10,No
+main street,Sinclair Lewis,United States of America,256,gen_fiction,1920.0,<10,No
+matilda,Roald Dahl,United Kingdom,257,gen_fiction,1988.0,10-20,Yes
+lolita,Vladimir Vladimirovich Nabokov,United States of America,258,romance,1955.0,50-100,Yes
+paper towns,John Green,United States of America,259,bildung,,<10,No
 sounder,William H. Armstrong,,260,gen_fiction,,<10,No
-"are you there god? it's me, margaret",Judy Blume,American,261,gen_fiction,1970.0,<10,No
-notebook,Nicholas Sparks,American,262,romance,1996.0,<10,No
-notebook,Nicholas Sparks,Hungarian,262,romance,1986.0,<10,No
-from mixed up files of mrs basil e frankweiler,E.L. Konigsburg,American,263,gen_fiction,1977.0,<10,No
-atlas shrugged,Ayn Rand,American,264,scifi,1957.0,<10,No
-fountainhead,Ayn Rand,American,265,gen_fiction,1943.0,<10,No
-number stars,Lois Lowry,American,266,history,,<10,No
-firm,John Grisham,American,267,gen_fiction,,<10,No
+"are you there god? it's me, margaret",Judy Blume,United States of America,261,gen_fiction,1970.0,<10,No
+notebook,Nicholas Sparks,United States of America,262,romance,1996.0,<10,No
+notebook,Nicholas Sparks,Hungary,262,romance,1986.0,<10,No
+from mixed up files of mrs basil e frankweiler,E.L. Konigsburg,United States of America,263,gen_fiction,1977.0,<10,No
+atlas shrugged,Ayn Rand,United States of America,264,scifi,1957.0,<10,No
+fountainhead,Ayn Rand,United States of America,265,gen_fiction,1943.0,<10,No
+number stars,Lois Lowry,United States of America,266,history,,<10,No
+firm,John Grisham,United States of America,267,gen_fiction,,<10,No
 swann's way,Marcel Proust,,268,autobio,,<10,No
-ender's game,Orson Scott Card,American,269,scifi,1980.0,<10,No
-name of rose,Umberto Eco,Italian,270,history,1980.0,50-100,Yes
-time to kill,John Grisham,American,271,gen_fiction,,<10,No
+ender's game,Orson Scott Card,United States of America,269,scifi,1980.0,<10,No
+name of rose,Umberto Eco,Italy,270,history,1980.0,50-100,Yes
+time to kill,John Grisham,United States of America,271,gen_fiction,,<10,No
 water for elephants,Sara Gruen,,272,romance,,<10,No
-time machine,H.G. Wells,British,273,scifi,1895.0,<10,No
-time machine,H.G. Wells,British,273,scifi,1895.0,<10,No
+time machine,H.G. Wells,United Kingdom,273,scifi,1895.0,<10,No
+time machine,H.G. Wells,United Kingdom,273,scifi,1895.0,<10,No
 eragon,Christopher Paolini,,274,fantasy,,<10,No
-hitchhiker's guide to galaxy,Douglas Adams,British,275,scifi,1979.0,10-20,Yes
-buddenbrooks,Thomas Mann,German,276,gen_fiction,1901.0,<10,No
-thousand splendid suns,Khaled Hosseini,Afghan,277,gen_fiction,2007.0,<10,No
+hitchhiker's guide to galaxy,Douglas Adams,United Kingdom,275,scifi,1979.0,10-20,Yes
+buddenbrooks,Thomas Mann,Germany,276,gen_fiction,1901.0,<10,No
+thousand splendid suns,Khaled Hosseini,Afghanistan,277,gen_fiction,2007.0,<10,No
 witch of blackbird pond,Elizabeth George Speare,,278,gen_fiction,,<10,No
-and then there were none,Agatha Christie,British,279,mystery,1939.0,>100,Yes
-separate peace,John Knowles,American,280,history,1959.0,<10,No
-breaking dawn,Stephenie Meyer,American,281,romance,,<10,No
-as i lay dying,William Faulkner,American,282,gen_fiction,1930.0,<10,No
-girl who played with fire,Stieg Larsson,Swedish,283,thrillers,,<10,No
-where red fern grows,Wilson Rawls,American,284,bildung,1961.0,<10,No
-le morte d'arthur,Thomas Malory,British,285,gen_fiction,1485.0,<10,No
-mockingjay,Suzanne Collins,American,286,scifi,,20-50,Yes
-pillars of earth,Ken Follett,British,287,history,1989.0,10-20,Yes
+and then there were none,Agatha Christie,United Kingdom,279,mystery,1939.0,>100,Yes
+separate peace,John Knowles,United States of America,280,history,1959.0,<10,No
+breaking dawn,Stephenie Meyer,United States of America,281,romance,,<10,No
+as i lay dying,William Faulkner,United States of America,282,gen_fiction,1930.0,<10,No
+girl who played with fire,Stieg Larsson,Sweden,283,thrillers,,<10,No
+where red fern grows,Wilson Rawls,United States of America,284,bildung,1961.0,<10,No
+le morte d'arthur,Thomas Malory,United Kingdom,285,gen_fiction,1485.0,<10,No
+mockingjay,Suzanne Collins,United States of America,286,scifi,,20-50,Yes
+pillars of earth,Ken Follett,United Kingdom,287,history,1989.0,10-20,Yes
 persian letters,Montesquieu,,288,gen_fiction,,<10,No
-client,John Grisham,American,289,gen_fiction,,<10,No
-sula,Toni Morrison,American,290,gen_fiction,1973.0,<10,No
-tales of fourth grade nothing,Judy Blume,American,291,gen_fiction,,<10,No
-merry adventures of robin hood,Howard Pyle,American,292,gen_fiction,1883.0,<10,No
-tortilla flat,John Steinbeck,American,293,gen_fiction,,<10,No
-"look homeward, angel",Thomas Wolfe,American,294,gen_fiction,1929.0,<10,No
-mystery of edwin drood,Charles Dickens,British,295,gen_fiction,,<10,No
-brideshead revisited,Evelyn Waugh,British,296,gen_fiction,1945.0,<10,No
-pelican brief,John Grisham,American,297,mystery,,<10,No
-atonement,Ian McEwan,British,298,gen_fiction,2001.0,<10,No
-washington square,Henry James,British,299,gen_fiction,,<10,No
-like water for chocolate,Laura Esquivel,Mexican,300,romance,1989.0,<10,No
-golden compass,Philip Pullman,British,301,gen_fiction,1995.0,<10,No
+client,John Grisham,United States of America,289,gen_fiction,,<10,No
+sula,Toni Morrison,United States of America,290,gen_fiction,1973.0,<10,No
+tales of fourth grade nothing,Judy Blume,United States of America,291,gen_fiction,,<10,No
+merry adventures of robin hood,Howard Pyle,United States of America,292,gen_fiction,1883.0,<10,No
+tortilla flat,John Steinbeck,United States of America,293,gen_fiction,,<10,No
+"look homeward, angel",Thomas Wolfe,United States of America,294,gen_fiction,1929.0,<10,No
+mystery of edwin drood,Charles Dickens,United Kingdom,295,gen_fiction,,<10,No
+brideshead revisited,Evelyn Waugh,United Kingdom,296,gen_fiction,1945.0,<10,No
+pelican brief,John Grisham,United States of America,297,mystery,,<10,No
+atonement,Ian McEwan,United Kingdom,298,gen_fiction,2001.0,<10,No
+washington square,Henry James,United Kingdom,299,gen_fiction,,<10,No
+like water for chocolate,Laura Esquivel,Mexico,300,romance,1989.0,<10,No
+golden compass,Philip Pullman,United Kingdom,301,gen_fiction,1995.0,<10,No
 secret life of bees,Sue Monk Kidd,,302,gen_fiction,,<10,No
-fault in our stars,John Green,American,303,romance,2012.0,20-50,Yes
-nostromo,Joseph Conrad,British,304,political,1904.0,<10,No
-finnegans wake,James Joyce,Irish,305,gen_fiction,1939.0,<10,No
-brethren,John Grisham,American,306,thrillers,,<10,No
-coraline,Neil Gaiman,British,307,gen_fiction,2002.0,<10,No
-heart of darkness,Joseph Conrad,British,308,gen_fiction,1899.0,<10,No
-on banks of plum creek,Laura Ingalls Wilder,American,309,autobio,,<10,No
+fault in our stars,John Green,United States of America,303,romance,2012.0,20-50,Yes
+nostromo,Joseph Conrad,United Kingdom,304,political,1904.0,<10,No
+finnegans wake,James Joyce,Ireland,305,gen_fiction,1939.0,<10,No
+brethren,John Grisham,United States of America,306,thrillers,,<10,No
+coraline,Neil Gaiman,United Kingdom,307,gen_fiction,2002.0,<10,No
+heart of darkness,Joseph Conrad,United Kingdom,308,gen_fiction,1899.0,<10,No
+on banks of plum creek,Laura Ingalls Wilder,United States of America,309,autobio,,<10,No
 rebecca of sunnybrook farm,Kate Douglas Smith Wiggin,,310,gen_fiction,,<10,No
-ambassadors,Henry James,American,311,gen_fiction,1903.0,<10,No
-secret agent,Joseph Conrad,British,312,political,1907.0,<10,No
-house on mango street,Sandra Cisneros,American,313,bildung,1984.0,<10,No
-go tell it on mountain,James Baldwin,American,314,bildung,1953.0,<10,No
-testament,John Grisham,American,315,thrillers,,<10,No
-clan of cave bear,Jean M. Auel,American,316,history,1980.0,<10,No
-cranford,Elizabeth Cleghorn Gaskell,British,317,gen_fiction,1851.0,<10,No
-because of winn dixie,Kate DiCamillo,American,318,gen_fiction,,<10,No
+ambassadors,Henry James,United States of America,311,gen_fiction,1903.0,<10,No
+secret agent,Joseph Conrad,United Kingdom,312,political,1907.0,<10,No
+house on mango street,Sandra Cisneros,United States of America,313,bildung,1984.0,<10,No
+go tell it on mountain,James Baldwin,United States of America,314,bildung,1953.0,<10,No
+testament,John Grisham,United States of America,315,thrillers,,<10,No
+clan of cave bear,Jean M. Auel,United States of America,316,history,1980.0,<10,No
+cranford,Elizabeth Cleghorn Gaskell,United Kingdom,317,gen_fiction,1851.0,<10,No
+because of winn dixie,Kate DiCamillo,United States of America,318,gen_fiction,,<10,No
 my side of mountain,Jean Craighead George,,319,gen_fiction,,<10,No
-runaway jury,John Grisham,American,320,thrillers,,<10,No
-mouse and motorcycle,Beverly Cleary,American,321,gen_fiction,,<10,No
-lost symbol,Dan Brown,American,322,thrillers,,20-50,Yes
-forsyte saga,John Galsworthy,British,323,gen_fiction,1922.0,<10,No
-gone girl,Gillian Flynn,American,324,thrillers,2012.0,20-50,Yes
-lightning thief,Rick Riordan,American,325,fantasy,2005.0,<10,No
+runaway jury,John Grisham,United States of America,320,thrillers,,<10,No
+mouse and motorcycle,Beverly Cleary,United States of America,321,gen_fiction,,<10,No
+lost symbol,Dan Brown,United States of America,322,thrillers,,20-50,Yes
+forsyte saga,John Galsworthy,United Kingdom,323,gen_fiction,1922.0,<10,No
+gone girl,Gillian Flynn,United States of America,324,thrillers,2012.0,20-50,Yes
+lightning thief,Rick Riordan,United States of America,325,fantasy,2005.0,<10,No
 last days of pompeii,Edward Bulwer Lytton,,326,history,,<10,No
-reader,Bernhard Schlink,German,327,gen_fiction,1995.0,<10,No
+reader,Bernhard Schlink,Germany,327,gen_fiction,1995.0,<10,No
 caddie woodlawn,Carol Ryrie Brink,,328,gen_fiction,,<10,No
-tale of despereaux,Kate DiCamillo,American,329,gen_fiction,,<10,No
-girl who kicked hornet's nest,Stieg Larsson,Swedish,330,thrillers,,<10,No
-dear mr henshaw,Beverly Cleary,American,331,gen_fiction,,<10,No
-killer angels,Michael Shaara,American,332,history,1974.0,<10,No
-chronicle of death foretold,Gabriel García Márquez,Colombian,333,gen_fiction,1981.0,<10,No
+tale of despereaux,Kate DiCamillo,United States of America,329,gen_fiction,,<10,No
+girl who kicked hornet's nest,Stieg Larsson,Sweden,330,thrillers,,<10,No
+dear mr henshaw,Beverly Cleary,United States of America,331,gen_fiction,,<10,No
+killer angels,Michael Shaara,United States of America,332,history,1974.0,<10,No
+chronicle of death foretold,Gabriel García Márquez,,333,gen_fiction,1981.0,<10,No
 five people you meet in heaven,Mitch Albom,,334,gen_fiction,,<10,No
-master and margarita,Mikhail Bulgakov,Russian,335,political,1966.0,<10,No
-"winesburg, ohio",Sherwood Anderson,American,336,gen_fiction,1919.0,<10,No
+master and margarita,Mikhail Bulgakov,Russia,335,political,1966.0,<10,No
+"winesburg, ohio",Sherwood Anderson,United States of America,336,gen_fiction,1919.0,<10,No
 """p"" is for peril",Sue Grafton,,337,mystery,,<10,No
 my sister's keeper,Jodi Picoult,,338,gen_fiction,,<10,No
-barnaby rudge,Charles Dickens,British,339,political,,<10,No
-howards end,E.M. Forster,British,340,gen_fiction,1910.0,<10,No
-broker,John Grisham,American,341,thrillers,,<10,No
+barnaby rudge,Charles Dickens,United Kingdom,339,political,,<10,No
+howards end,E.M. Forster,United Kingdom,340,gen_fiction,1910.0,<10,No
+broker,John Grisham,United States of America,341,thrillers,,<10,No
 camel club,David Baldacci,,342,political,,<10,No
-rainbow,D.H. Lawrence,British,343,gen_fiction,1915.0,<10,No
-man in iron mask,Alexandre Dumas,French,344,history,,<10,No
-mary poppins,P.L. Travers,English,345,fantasy,1998.0,<10,No
-artemis fowl,Eoin Colfer,Irish,346,fantasy,2001.0,<10,No
-dear john,Nicholas Sparks,Hungarian,347,romance,,<10,No
-cold mountain,Charles Frazier,American,348,romance,1997.0,<10,No
-flowers for algernon,Daniel Keyes,American,349,gen_fiction,1966.0,<10,No
-dark is rising,Susan Cooper,British,350,fantasy,2002.0,<10,No
-resurrection,Leo Tolstoy,Russian,351,gen_fiction,1899.0,<10,No
+rainbow,D.H. Lawrence,United Kingdom,343,gen_fiction,1915.0,<10,No
+man in iron mask,Alexandre Dumas,France,344,history,,<10,No
+mary poppins,P.L. Travers,England,345,fantasy,1998.0,<10,No
+artemis fowl,Eoin Colfer,Ireland,346,fantasy,2001.0,<10,No
+dear john,Nicholas Sparks,Hungary,347,romance,,<10,No
+cold mountain,Charles Frazier,United States of America,348,romance,1997.0,<10,No
+flowers for algernon,Daniel Keyes,United States of America,349,gen_fiction,1966.0,<10,No
+dark is rising,Susan Cooper,United Kingdom,350,fantasy,2002.0,<10,No
+resurrection,Leo Tolstoy,Russia,351,gen_fiction,1899.0,<10,No
 fearless fourteen,Janet Evanovich,,352,mystery,,<10,No
-sentimental journey through france and italy,Laurence Sterne,British,353,gen_fiction,1768.0,<10,No
-king of torts,John Grisham,American,354,thrillers,,<10,No
-graveyard book,Neil Gaiman,British,355,gen_fiction,2008.0,<10,No
-quiet american,Graham Greene,British,356,political,1955.0,<10,No
-chamber,John Grisham,American,357,gen_fiction,,<10,No
-english patient,Michael Ondaatje,Canadian,358,history,1992.0,<10,No
-snow falling on cedars,David Guterson,American,359,gen_fiction,1994.0,<10,No
-long winter,Laura Ingalls Wilder,American,360,autobio,,<10,No
-"sarah, plain and tall",Patricia MacLachlan,American,361,gen_fiction,1985.0,<10,No
-cross country,James Patterson,American,362,thrillers,,<10,No
-spy who came in from cold,John Le Carré,British,363,gen_fiction,1963.0,<10,No
-game of thrones,George R.R. Martin,American,364,fantasy,1996.0,<10,No
-thorn birds,Colleen McCullough,Australian,365,gen_fiction,1977.0,20-50,Yes
+sentimental journey through france and italy,Laurence Sterne,United Kingdom,353,gen_fiction,1768.0,<10,No
+king of torts,John Grisham,United States of America,354,thrillers,,<10,No
+graveyard book,Neil Gaiman,United Kingdom,355,gen_fiction,2008.0,<10,No
+quiet american,Graham Greene,United Kingdom,356,political,1955.0,<10,No
+chamber,John Grisham,United States of America,357,gen_fiction,,<10,No
+english patient,Michael Ondaatje,Canada,358,history,1992.0,<10,No
+snow falling on cedars,David Guterson,United States of America,359,gen_fiction,1994.0,<10,No
+long winter,Laura Ingalls Wilder,United States of America,360,autobio,,<10,No
+"sarah, plain and tall",Patricia MacLachlan,United States of America,361,gen_fiction,1985.0,<10,No
+cross country,James Patterson,United States of America,362,thrillers,,<10,No
+spy who came in from cold,John Le Carré,United Kingdom,363,gen_fiction,1963.0,<10,No
+game of thrones,George R.R. Martin,United States of America,364,fantasy,1996.0,<10,No
+thorn birds,Colleen McCullough,Australia,365,gen_fiction,1977.0,20-50,Yes
 old yeller,Fred Gipson,,366,bildung,,<10,No
-"ramona quimby, age 8",Beverly Cleary,American,367,gen_fiction,,<10,No
-death in venice,Thomas Mann,German,368,gen_fiction,1912.0,<10,No
-by shores of silver lake,Laura Ingalls Wilder,American,369,autobio,,<10,No
-inferno,Dan Brown,American,370,thrillers,,<10,No
-schindler's list,Thomas Keneally,Australian,371,gen_fiction,1982.0,<10,No
-jonathan livingston seagull,Richard Bach,American,372,allegories,1970.0,20-50,Yes
-stand,Stephen King,American,373,horror,1978.0,<10,No
-last juror,John Grisham,American,374,thrillers,,<10,No
+"ramona quimby, age 8",Beverly Cleary,United States of America,367,gen_fiction,,<10,No
+death in venice,Thomas Mann,Germany,368,gen_fiction,1912.0,<10,No
+by shores of silver lake,Laura Ingalls Wilder,United States of America,369,autobio,,<10,No
+inferno,Dan Brown,United States of America,370,thrillers,,<10,No
+schindler's list,Thomas Keneally,Australia,371,gen_fiction,1982.0,<10,No
+jonathan livingston seagull,Richard Bach,United States of America,372,allegories,1970.0,20-50,Yes
+stand,Stephen King,United States of America,373,horror,1978.0,<10,No
+last juror,John Grisham,United States of America,374,thrillers,,<10,No
 shiloh,Phyllis Reynolds Naylor,,375,gen_fiction,,<10,No
 girl with pearl earring,Tracy Chevalier,,376,gen_fiction,,<10,No
-murder of roger ackroyd,Agatha Christie,British,377,mystery,1926.0,<10,No
-it,Stephen King,American,378,horror,1986.0,<10,No
-rainmaker,John Grisham,American,379,gen_fiction,,<10,No
-poisonwood bible,Barbara Kingsolver,American,380,gen_fiction,1998.0,<10,No
+murder of roger ackroyd,Agatha Christie,United Kingdom,377,mystery,1926.0,<10,No
+it,Stephen King,United States of America,378,horror,1986.0,<10,No
+rainmaker,John Grisham,United States of America,379,gen_fiction,,<10,No
+poisonwood bible,Barbara Kingsolver,United States of America,380,gen_fiction,1998.0,<10,No
 indian in cupboard,Lynne Reid Banks,,381,fantasy,,<10,No
-maltese falcon,Dashiell Hammett,American,382,mystery,1930.0,<10,No
-warden,Anthony Trollope,British,383,gen_fiction,1855.0,<10,No
-summons,John Grisham,American,384,thrillers,,<10,No
+maltese falcon,Dashiell Hammett,United States of America,382,mystery,1930.0,<10,No
+warden,Anthony Trollope,United Kingdom,383,gen_fiction,1855.0,<10,No
+summons,John Grisham,United States of America,384,thrillers,,<10,No
 encyclopedia brown,Donald J.  Sobol,,385,mystery,,<10,No
-time traveler's wife,Audrey Niffenegger,American,386,gen_fiction,2003.0,<10,No
+time traveler's wife,Audrey Niffenegger,United States of America,386,gen_fiction,2003.0,<10,No
 incredible journey,Sheila Burnford,,387,action,,<10,No
-daughter of fortune,Isabel Allende,Chilean,388,romance,,<10,No
-shirley,Charlotte Brontë,British,389,history,,<10,No
+daughter of fortune,Isabel Allende,Chile,388,romance,,<10,No
+shirley,Charlotte Brontë,United Kingdom,389,history,,<10,No
 "bud, not buddy",Christopher Paul Curtis,,390,history,,<10,No
-horse whisperer,Nicholas Evans,British,391,gen_fiction,1995.0,10-20,Yes
-street lawyer,John Grisham,American,392,thrillers,,<10,No
-nausea,Jean-Paul Sartre,French,393,gen_fiction,1938.0,<10,No
-to have and have not,Ernest Hemingway,American,394,action,,<10,No
+horse whisperer,Nicholas Evans,United Kingdom,391,gen_fiction,1995.0,10-20,Yes
+street lawyer,John Grisham,United States of America,392,thrillers,,<10,No
+nausea,Jean-Paul Sartre,France,393,gen_fiction,1938.0,<10,No
+to have and have not,Ernest Hemingway,United States of America,394,action,,<10,No
 bridges of madison county,Robert James Waller,,395,romance,,50-100,Yes
-anne of island,L.M. Montgomery,Canadian,396,gen_fiction,,<10,No
-winter of our discontent,John Steinbeck,American,397,gen_fiction,,<10,No
-shining,Stephen King,American,398,horror,1977.0,<10,No
-tenant of wildfell hall,Anne Brontë,British,399,gen_fiction,1848.0,<10,No
+anne of island,L.M. Montgomery,Canada,396,gen_fiction,,<10,No
+winter of our discontent,John Steinbeck,United States of America,397,gen_fiction,,<10,No
+shining,Stephen King,United States of America,398,horror,1977.0,<10,No
+tenant of wildfell hall,Anne Brontë,United Kingdom,399,gen_fiction,1848.0,<10,No
 first family,David Baldacci,,400,thrillers,,<10,No
-partner,John Grisham,American,401,thrillers,,<10,No
-girl on train,Paula Hawkins,British,402,gen_fiction,2015.0,20-50,Yes
-black arrow,Robert Louis Stevenson,British,403,history,,<10,No
+partner,John Grisham,United States of America,401,thrillers,,<10,No
+girl on train,Paula Hawkins,United Kingdom,402,gen_fiction,2015.0,20-50,Yes
+black arrow,Robert Louis Stevenson,United Kingdom,403,history,,<10,No
 rise of silas lapham,William Dea Howells,,404,gen_fiction,,<10,No
-choice,Nicholas Sparks,Hungarian,405,romance,,<10,No
+choice,Nicholas Sparks,Hungary,405,romance,,<10,No
 virginian,Owen Wister,,406,gen_fiction,,<10,No
-walk to remember,Nicholas Sparks,Hungarian,407,romance,,<10,No
+walk to remember,Nicholas Sparks,Hungary,407,romance,,<10,No
 maze runner,James Dashner,,408,scifi,,<10,No
 westing game,Ellen Raskin,,409,mystery,,<10,No
 misty of chincoteague,Marguerite Henry,,410,gen_fiction,,<10,No
-diary of wimpy kid,Jeff Kinney,American,411,gen_fiction,2007.0,<10,No
-king solomon's mines,H. Rider Haggard,British,412,action,1885.0,<10,No
-princess of cleves,Madame de (Marie-Madeleine Pioche de La Vergne) La Fayett,French,413,gen_fiction,1678.0,<10,No
-jacob have i loved,Katherine Paterson,American,414,gen_fiction,1980.0,<10,No
+diary of wimpy kid,Jeff Kinney,United States of America,411,gen_fiction,2007.0,<10,No
+king solomon's mines,H. Rider Haggard,United Kingdom,412,action,1885.0,<10,No
+princess of cleves,Madame de (Marie-Madeleine Pioche de La Vergne) La Fayett,France,413,gen_fiction,1678.0,<10,No
+jacob have i loved,Katherine Paterson,United States of America,414,gen_fiction,1980.0,<10,No
 mrs frisby and rats of nimh,Robert C. O'Brien,,415,fantasy,,<10,No
-misery,Stephen King,American,416,horror,1987.0,<10,No
-cider house rules,John Irving,American,417,bildung,1985.0,<10,No
+misery,Stephen King,United States of America,416,horror,1987.0,<10,No
+cider house rules,John Irving,United States of America,417,bildung,1985.0,<10,No
 king of wind,Marguerite Henry,,418,history,,<10,No
-once and future king,T. H. White,British,419,fantasy,1958.0,<10,No
-witches,Roald Dahl,British,420,gen_fiction,1983.0,<10,No
-subtle knife,Philip Pullman,British,421,fantasy,,<10,No
+once and future king,T. H. White,United Kingdom,419,fantasy,1958.0,<10,No
+witches,Roald Dahl,United Kingdom,420,gen_fiction,1983.0,<10,No
+subtle knife,Philip Pullman,United Kingdom,421,fantasy,,<10,No
 when you reach me,Rebecca Stead,,422,gen_fiction,,<10,No
-carrie,Stephen King,American,423,horror,1974.0,<10,No
-moon and sixpence,W. Somerset Maugham,British,424,gen_fiction,,<10,No
+carrie,Stephen King,United States of America,423,horror,1974.0,<10,No
+moon and sixpence,W. Somerset Maugham,United Kingdom,424,gen_fiction,,<10,No
 higher power of lucky,Susan Patron,,425,gen_fiction,,<10,No
 "looking backward, 2000 1887",Edward Bellamy,,426,gen_fiction,,<10,No
-wings of dove,Henry James,British,427,romance,1902.0,<10,No
+wings of dove,Henry James,United Kingdom,427,romance,1902.0,<10,No
 summer of swans,Betsy Cromer Byars,,428,gen_fiction,,<10,No
 dangerous liaisons,Choderlos de Laclos,,429,gen_fiction,,<10,No
-jurassic park,Michael Crichton,American,430,scifi,1990.0,<10,No
-absolutely true diary of part time indian,Sherman Alexie,American,431,gen_fiction,2007.0,<10,No
-grey king,Susan Cooper,British,432,fantasy,,<10,No
-leopard,Giuseppe Tomasi di Lampedusa,Italian,433,history,1958.0,<10,No
-mammoth hunters,Jean M. Auel,American,434,history,,<10,No
-trumpet of swan,E.B. White,American,435,fantasy,,<10,No
-lucky one,Nicholas Sparks,Hungarian,436,romance,,<10,No
-these happy golden years,Laura Ingalls Wilder,American,437,history,,<10,No
-arrowsmith,Sinclair Lewis,American,438,gen_fiction,1925.0,<10,No
+jurassic park,Michael Crichton,United States of America,430,scifi,1990.0,<10,No
+absolutely true diary of part time indian,Sherman Alexie,United States of America,431,gen_fiction,2007.0,<10,No
+grey king,Susan Cooper,United Kingdom,432,fantasy,,<10,No
+leopard,Giuseppe Tomasi di Lampedusa,Italy,433,history,1958.0,<10,No
+mammoth hunters,Jean M. Auel,United States of America,434,history,,<10,No
+trumpet of swan,E.B. White,United States of America,435,fantasy,,<10,No
+lucky one,Nicholas Sparks,Hungary,436,romance,,<10,No
+these happy golden years,Laura Ingalls Wilder,United States of America,437,history,,<10,No
+arrowsmith,Sinclair Lewis,United States of America,438,gen_fiction,1925.0,<10,No
 julie of wolves,Jean Craighead George,,439,action,,<10,No
-screwtape letters,C.S. Lewis,British,440,gen_fiction,,<10,No
-fall,Albert Camus,French,441,gen_fiction,1956.0,<10,No
-no 1 ladies' detective agency,Alexander McCall Smith,Scottish,442,mystery,1998.0,<10,No
-worst case,James Patterson,American,443,thrillers,,<10,No
-lost horizon,James Hilton,British,444,fantasy,1933.0,<10,No
-gunslinger,Stephen King,American,445,fantasy,,<10,No
+screwtape letters,C.S. Lewis,United Kingdom,440,gen_fiction,,<10,No
+fall,Albert Camus,France,441,gen_fiction,1956.0,<10,No
+no 1 ladies' detective agency,Alexander McCall Smith,United Kingdom,442,mystery,1998.0,<10,No
+worst case,James Patterson,United States of America,443,thrillers,,<10,No
+lost horizon,James Hilton,United Kingdom,444,fantasy,1933.0,<10,No
+gunslinger,Stephen King,United States of America,445,fantasy,,<10,No
 slave dancer,Paula Fox,,446,history,,<10,No
-harry potter and half blood prince,J.K. Rowling,British,447,fantasy,2005.0,50-100,Yes
+harry potter and half blood prince,J.K. Rowling,United Kingdom,447,fantasy,2005.0,50-100,Yes
 inkheart,Cornelia Funke,,448,fantasy,,<10,No
-ramona and her father,Beverly Cleary,American,449,gen_fiction,,<10,No
+ramona and her father,Beverly Cleary,United States of America,449,gen_fiction,,<10,No
 inkspell,Cornelia Funke,,450,fantasy,,<10,No
-ramona pest,Beverly Cleary,American,451,gen_fiction,,<10,No
+ramona pest,Beverly Cleary,United States of America,451,gen_fiction,,<10,No
 walk two moons,Sharon Creech,,452,bildung,,<10,No
 miss peregrine's home for peculiar children,Ransom Riggs,,453,gen_fiction,,<10,No
 chocolate war,Robert Cormier,,454,bildung,,<10,No
-sophie's choice,William Styron,American,455,bildung,1979.0,<10,No
-looking for alaska,John Green,American,456,bildung,2005.0,<10,No
-breakfast at tiffany's,Truman Capote,American,457,gen_fiction,1958.0,<10,No
-razor's edge,W. Somerset Maugham,British,458,bildung,1944.0,<10,No
-dreamcatcher,Stephen King,American,459,horror,,<10,No
-orlando,Virginia Woolf,British,460,history,1928.0,<10,No
-things they carried,Tim O'Brien,American,461,gen_fiction,1990.0,<10,No
-little town on prairie,Laura Ingalls Wilder,American,462,history,,<10,No
-nights in rodanthe,Nicholas Sparks,Hungarian,463,romance,,<10,No
-amber spyglass,Philip Pullman,British,464,fantasy,2000.0,<10,No
-miraculous journey of edward tulane,Kate DiCamillo,American,465,gen_fiction,2006.0,<10,No
-flatland,Edwin A. Abbott,British,466,gen_fiction,1884.0,<10,No
-diary of wimpy kid,Jeff  Kinney,American,467,gen_fiction,2007.0,<10,No
+sophie's choice,William Styron,United States of America,455,bildung,1979.0,<10,No
+looking for alaska,John Green,United States of America,456,bildung,2005.0,<10,No
+breakfast at tiffany's,Truman Capote,United States of America,457,gen_fiction,1958.0,<10,No
+razor's edge,W. Somerset Maugham,United Kingdom,458,bildung,1944.0,<10,No
+dreamcatcher,Stephen King,United States of America,459,horror,,<10,No
+orlando,Virginia Woolf,United Kingdom,460,history,1928.0,<10,No
+things they carried,Tim O'Brien,United States of America,461,gen_fiction,1990.0,<10,No
+little town on prairie,Laura Ingalls Wilder,United States of America,462,history,,<10,No
+nights in rodanthe,Nicholas Sparks,Hungary,463,romance,,<10,No
+amber spyglass,Philip Pullman,United Kingdom,464,fantasy,2000.0,<10,No
+miraculous journey of edward tulane,Kate DiCamillo,United States of America,465,gen_fiction,2006.0,<10,No
+flatland,Edwin A. Abbott,United Kingdom,466,gen_fiction,1884.0,<10,No
+diary of wimpy kid,Jeff  Kinney,United States of America,467,gen_fiction,2007.0,<10,No
 memory keeper's daughter,Kim Edwards,,468,gen_fiction,,<10,No
-wedding,Nicholas Sparks,Hungarian,469,romance,,<10,No
+wedding,Nicholas Sparks,Hungary,469,romance,,<10,No
 fried green tomatoes at whistle stop cafe,Fannie Flagg,,470,gen_fiction,,<10,No
 cricket in times square,George Selden,,471,gen_fiction,,<10,No
-phantom tollbooth,Norton Juster,American,472,fantasy,1961.0,<10,No
-rob roy,Walter Scott,British,473,history,1817.0,<10,No
-death of ivan ilych,Leo Tolstoy,Russian,474,gen_fiction,,<10,No
-alex cross's trial,James Patterson,American,475,thrillers,,<10,No
-kenilworth,Walter Scott,British,476,history,,<10,No
-life and opinions of tristram shandy,Laurence Sterne,British,477,gen_fiction,,<10,No
+phantom tollbooth,Norton Juster,United States of America,472,fantasy,1961.0,<10,No
+rob roy,Walter Scott,United Kingdom,473,history,1817.0,<10,No
+death of ivan ilych,Leo Tolstoy,Russia,474,gen_fiction,,<10,No
+alex cross's trial,James Patterson,United States of America,475,thrillers,,<10,No
+kenilworth,Walter Scott,United Kingdom,476,history,,<10,No
+life and opinions of tristram shandy,Laurence Sterne,United Kingdom,477,gen_fiction,,<10,No
 remains of theday,Kazuo Ishiguro,,478,history,,<10,No
 "mc higgins, great",Virginia Hamilton,,479,bildung,,<10,No
 call it courage,Armstrong Sperry,,480,history,,<10,No
-go set watchman,Harper Lee,American,481,gen_fiction,,<10,No
-bleachers,John Grisham,American,482,gen_fiction,,<10,No
+go set watchman,Harper Lee,United States of America,481,gen_fiction,,<10,No
+bleachers,John Grisham,United States of America,482,gen_fiction,,<10,No
 elijah of buxton,Christopher Paul Curtis,,483,gen_fiction,,<10,No
-swimsuit,James Patterson,American,484,mystery,,<10,No
-cat's cradle,Kurt Vonnegut,American,485,scifi,1963.0,<10,No
-caine mutiny,Herman Wouk,American,486,gen_fiction,1951.0,<10,No
-heart of matter,Graham Greene,British,487,gen_fiction,1948.0,<10,No
+swimsuit,James Patterson,United States of America,484,mystery,,<10,No
+cat's cradle,Kurt Vonnegut,United States of America,485,scifi,1963.0,<10,No
+caine mutiny,Herman Wouk,United States of America,486,gen_fiction,1951.0,<10,No
+heart of matter,Graham Greene,United Kingdom,487,gen_fiction,1948.0,<10,No
 "harriet, spy",Louise Fitzhugh,,488,mystery,,<10,No
-darkness at noon,Arthur Koestler,British,489,history,1940.0,<10,No
-prayer for owen meany,John Irving,American,490,gen_fiction,1989.0,<10,No
-god of small things,Arundhati Roy,Indian,491,gen_fiction,1997.0,<10,No
-god of small things,Arundhati Roy,Indian,491,gen_fiction,1997.0,<10,No
-associate,John Grisham,American,492,thrillers,,<10,No
-shack,William P. Young,American,493,gen_fiction,2007.0,20-50,Yes
-naked and dead,Norman Mailer,American,494,history,1948.0,<10,No
-sea of monsters,Rick Riordan,American,495,fantasy,,<10,No
-stranger in strange land,Robert A. Heinlein,American,496,scifi,1961.0,<10,No
+darkness at noon,Arthur Koestler,United Kingdom,489,history,1940.0,<10,No
+prayer for owen meany,John Irving,United States of America,490,gen_fiction,1989.0,<10,No
+god of small things,Arundhati Roy,India,491,gen_fiction,1997.0,<10,No
+god of small things,Arundhati Roy,India,491,gen_fiction,1997.0,<10,No
+associate,John Grisham,United States of America,492,thrillers,,<10,No
+shack,William P. Young,United States of America,493,gen_fiction,2007.0,20-50,Yes
+naked and dead,Norman Mailer,United States of America,494,history,1948.0,<10,No
+sea of monsters,Rick Riordan,United States of America,495,fantasy,,<10,No
+stranger in strange land,Robert A. Heinlein,United States of America,496,scifi,1961.0,<10,No
 vision in white,Nora Roberts,,497,romance,,<10,No
 whipping boy,Sid Fleischman,,498,action,,<10,No
-room,Emma Donoghue,Irish,499,gen_fiction,2010.0,<10,No
-deception point,Dan Brown,American,500,political,,<10,No
+room,Emma Donoghue,Ireland,499,gen_fiction,2010.0,<10,No
+deception point,Dan Brown,United States of America,500,political,,<10,No

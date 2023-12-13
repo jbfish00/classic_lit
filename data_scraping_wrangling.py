@@ -162,8 +162,43 @@ master_list['Approx. sales (in millions)'] = master_list['Approx. sales (in mill
 master_list['Bestseller'] = master_list['Bestseller'].fillna('No')
 master_list = fill_country_based_on_author(master_list)
 
+country_mapping = {
+    "British": "United Kingdom",
+    "American": "United States of America",
+    "Spanish": "Spain",
+    "Swiss": "Switzerland",
+    "Hungarian": "Hungary",
+    "Japanese": "Japan",
+    "Russian": "Russia",
+    "French": "France",
+    "Irish": "Ireland",
+    "Italian": "Italy",
+    "Columbian": "Columbia",
+    "Canadian": "Canada",
+    "English": "England",
+    "Czech": "Czech Republic",
+    "German": "Germany",
+    "Brazilian": "Brazil",
+    "Afghan": "Afghanistan",
+    "South African": "South Africa",
+    "Chinese": "China",
+    "Chilean": "Chile",
+    "Swedish": "Sweden",
+    "Nigerian": "Nigeria",
+    "Polish": "Poland",
+    "Mexican": "Mexico",
+    "Australian": "Australia",
+    "Scottish": "United Kingdom",
+    "Indian": "India"
+    # Add more mappings as necessary
+}
+
+master_list['countries'] = master_list['countries'].map(country_mapping)
+
+
 master_list = master_list[['Title', 'Author', 'countries', 'Rank', 'Genre', 'first_year_published', 'Approx. sales (in millions)', 'Bestseller']]
 master_list.to_csv('master_list.csv', index=False)
+
 
 
 
