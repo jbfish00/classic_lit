@@ -1,501 +1,501 @@
 Title,Author,Rank,Genre
-don quixote,Miguel de Cervantes,1,action
-alice's adventures in wonderland,Lewis Carroll,2,fantasy
-adventures of huckleberry finn,Mark Twain,3,action
-adventures of tom sawyer,Mark Twain,4,action
-treasure island,Robert Louis Stevenson,5,action
-pride and prejudice,Jane Austen,6,romance
-wuthering heights,Emily Brontë,7,gen_fiction
-jane eyre,Charlotte Brontë,8,romance
-moby dick,Herman Melville,9,gen_fiction
-scarlet letter,Nathaniel Hawthorne,10,gen_fiction
-gulliver's travels,Jonathan Swift,11,fantasy
-pilgrim's progress,John Bunyan,12,allegories
-a christmas carol,Charles Dickens,13,gen_fiction
-david copperfield,Charles Dickens,14,bildung
-a tale of two cities,Charles Dickens,15,history
-little women,Louisa May Alcott,16,gen_fiction
-great expectations,Charles Dickens,17,bildung
-hobbit,J.R.R. Tolkien,18,fantasy
-frankenstein,Mary Shelley,19,horror
-oliver twist,Charles Dickens,20,bildung
-uncle tom's cabin,Harriet Beecher Stowe,21,political
-crime and punishment,Fyodor Dostoyevsky,22,gen_fiction
-madame bovary,Gustave Flaubert,23,gen_fiction
-lord of the rings,J.R.R. Tolkien,24,fantasy
-dracula,Bram Stoker,25,gen_fiction
-three musketeers,Alexandre Dumas,26,history
-brave new world,Aldous Huxley,27,gen_fiction
-war and peace,Leo Tolstoy,28,history
-to kill a mockingbird,Harper Lee,29,gen_fiction
-wizard of oz,L. Frank Baum,30,fantasy
-les misérables,Victor Hugo,31,gen_fiction
-secret garden,Frances Hodgson Burnett,32,gen_fiction
-animal farm,George Orwell,33,political
-great gatsby,F. Scott Fitzgerald,34,gen_fiction
-little prince,Antoine de Saint-Exupéry,35,gen_fiction
-call of the wild,Jack London,36,action
-twenty thousand leagues under the sea,Jules Verne,37,scifi
-anna karenina,Leo Tolstoy,38,romance
-wind in the willows,Kenneth Grahame,39,fantasy
-picture of dorian gray,Oscar Wilde,40,gen_fiction
-grapes of wrath,John Steinbeck,41,gen_fiction
-sense and sensibility,Jane Austen,42,romance
-last of the mohicans,James Fenimore Cooper,43,history
-tess of the d'urbervilles,Thomas Hardy,44,gen_fiction
-harry potter and the sorcerer's stone,J.K. Rowling,45,fantasy
-heidi,Johanna Spyri,46,gen_fiction
-ulysses,James Joyce,47,gen_fiction
-complete sherlock holmes,Arthur Conan Doyle,48,mystery
-count of monte cristo,Alexandre Dumas,49,history
-old man and the sea,Ernest Hemingway,50,allegories
-"lion, the witch, and the wardrobe",C.S. Lewis,51,fantasy
-hunchback of notre dame,Victor Hugo,52,history
-pinocchio,Carlo Collodi,53,gen_fiction
-one hundred years of solitude,Gabriel García Márquez,54,gen_fiction
-ivanhoe,Walter Scott,55,history
-red badge of courage,Stephen Crane,56,history
-anne of green gables,L.M. Montgomery,57,gen_fiction
-black beauty,Anna Sewell,58,gen_fiction
-peter pan,J.M. Barrie,59,fantasy
-a farewell to arms,Ernest Hemingway,60,war
-house of the seven gables,Nathaniel Hawthorne,61,gen_fiction
-lord of the flies,William Golding,62,gen_fiction
-prince and the pauper,Mark Twain,63,history
-a portrait of the artist as a young man,James Joyce,64,bildung
-lord jim,Joseph Conrad,65,gen_fiction
-harry potter and the chamber of secrets,J.K. Rowling,66,fantasy
-red and the black,Stendhal,67,bildung
-stranger,Albert Camus,68,gen_fiction
-trial,Franz Kafka,69,allegories
-lady chatterley's lover,D.H. Lawrence,70,gen_fiction
-kidnapped,Robert Louis Stevenson,71,history
-catcher in the rye,J.D. Salinger,72,bildung
-fahrenheit 451,Ray Bradbury,73,scifi
-a journey to the center of the earth,Jules Verne,74,scifi
-vanity fair,William Makepeace Thackeray,75,gen_fiction
-all quiet on the western front,Erich Maria Remarque,76,war
-gone with the wind,Margaret Mitchell,77,history
-my ántonia,Willa Cather,78,gen_fiction
-of mice and men,John Steinbeck,79,gen_fiction
-vicar of wakefield,Oliver Goldsmith,80,gen_fiction
-a connecticut yankee in king arthur's court,Mark Twain,81,fantasy
-white fang,Jack London,82,action
-fathers and sons,Ivan Sergeevich Turgenev,83,gen_fiction
-doctor zhivago,Boris Leonidovich Pasternak,84,history
-decameron,Giovanni Boccaccio,85,gen_fiction
-nineteen eighty-four,George Orwell,86,political
-jungle,Upton Sinclair,87,political
-da vinci code,Dan Brown,88,mystery
-persuasion,Jane Austen,89,romance
-mansfield park,Jane Austen,90,romance
-candide,Voltaire,91,gen_fiction
-for whom the bell tolls,Ernest Hemingway,92,war
-far from the madding crowd,Thomas Hardy,93,romance
-lord of the rings,J.R.R. Tolkien,94,fantasy
-return of the native,Thomas Hardy,95,romance
-sons and lovers,D.H. Lawrence,96,gen_fiction
-charlotte's web,E.B. White,97,fantasy
-swiss family robinson,Johann David Wyss,98,gen_fiction
-bleak house,Charles Dickens,99,gen_fiction
-père goriot,Honoré de Balzac,100,bildung
-utopia,Thomas More,101,gen_fiction
-"history of tom jones, a foundling",Henry Fielding,102,gen_fiction
-harry potter and the prisoner of azkaban,J.K. Rowling,103,fantasy
-kim,Rudyard Kipling,104,action
-sound and the fury,William Faulkner,105,gen_fiction
-harry potter and the goblet of fire,J.K. Rowling,106,fantasy
-mill on the floss,George Eliot,107,gen_fiction
-a wrinkle in time,Madeleine L'Engle,108,scifi
-hound of the baskervilles,Arthur Conan Doyle,109,mystery
-lord of the rings,J.R.R. Tolkien,110,fantasy
-war of the worlds,H.G. Wells,111,scifi
-middlemarch,George Eliot,112,gen_fiction
-age of innocence,Edith Wharton,113,gen_fiction
-color purple,Alice Walker,114,gen_fiction
-northanger abbey,Jane Austen,115,romance
-east of eden,John Steinbeck,116,gen_fiction
-on the road,Jack Kerouac,117,autobio
-catch-22,Joseph Heller,118,war
-around the world in eighty days,Jules Verne,119,action
-hard times,Charles Dickens,120,gen_fiction
-beloved,Toni Morrison,121,history
-mrs. dalloway,Virginia Woolf,122,gen_fiction
-to the lighthouse,Virginia Woolf,123,gen_fiction
-magician's nephew,C.S. Lewis,124,fantasy
-harry potter and the order of the phoenix,J.K. Rowling,125,fantasy
-sun also rises,Ernest Hemingway,126,history
-good earth,Pearl S. Buck,127,gen_fiction
-silas marner,George Eliot,128,gen_fiction
-love in the time of cholera,Gabriel García Márquez,129,romance
-rebecca,Daphne Du Maurier,130,romance
-jude the obscure,Thomas Hardy,131,gen_fiction
-twilight,Stephenie Meyer,132,romance
-a passage to india,E.M. Forster,133,political
-plague,Albert Camus,134,gen_fiction
-nicholas nickleby,Charles Dickens,135,bildung
-pearl,John Steinbeck,136,gen_fiction
-ethan frome,Edith Wharton,137,gen_fiction
-tale of genji,Murasaki Shikibu,138,gen_fiction
-giver,Lois Lowry,139,scifi
-alchemist,Paulo Coelho,140,gen_fiction
-strange case of dr. jekyll and mr. hyde,Robert Louis Stevenson,141,gen_fiction
-robinson crusoe,Daniel Defoe,142,action
-tender is the night,F. Scott Fitzgerald,143,gen_fiction
-idiot,Fyodor Dostoyevsky,144,history
-hatchet,Gary Paulsen,145,action
-kite runner,Khaled Hosseini,146,bildung
-one flew over the cuckoo's nest,Ken Kesey,147,gen_fiction
-portrait of a lady,Henry James,148,gen_fiction
-outsiders,S.E. Hinton,149,gen_fiction
-ben-hur,Lew Wallace,150,history
-mayor of casterbridge,Thomas Hardy,151,gen_fiction
-"cry, beloved country",Alan Paton,152,political
-last battle,C.S. Lewis,153,fantasy
-captains courageous,Rudyard Kipling,154,bildung
-castle,Franz Kafka,155,allegories
-metamorphosis,Franz Kafka,156,gen_fiction
-magic mountain,Thomas Mann,157,bildung
-james and the giant peach,Roald Dahl,158,gen_fiction
-horse and his boy,C.S. Lewis,159,fantasy
-angels and demons,Dan Brown,160,thrillers
-voyage of the dawn treader,C.S. Lewis,161,fantasy
-bell jar,Sylvia Plath,162,gen_fiction
-women in love,D.H. Lawrence,163,gen_fiction
-yearling,Marjorie Kinnan Rawlings,164,gen_fiction
-o pioneers!,Willa Cather,165,gen_fiction
-handmaid's tale,Margaret Atwood,166,gen_fiction
-moonstone,Wilkie Collins,167,mystery
-old curiosity shop,Charles Dickens,168,gen_fiction
-little dorrit,Charles Dickens,169,gen_fiction
-prince caspian,C.S. Lewis,170,fantasy
-sister carrie,Theodore Dreiser,171,gen_fiction
-silver chair,C.S. Lewis,172,fantasy
-hunger games,Suzanne Collins,173,scifi
-this side of paradise,F. Scott Fitzgerald,174,bildung
-eugénie grandet,Honoré de Balzac,175,allegories
-of human bondage,W. Somerset Maugham,176,bildung
-dream of the red chamber,Cao Xueqin,177,gen_fiction
-life of pi,Yann Martel,178,gen_fiction
-harry potter and the deathly hallows,J.K. Rowling,179,fantasy
-invisible man,Ralph Ellison,180,gen_fiction
-steppenwolf,Hermann Hesse,181,gen_fiction
-sorrows of young werther,Johann Wolfgang von Goethe,182,autobio
-bridge to terabithia,Katherine Paterson,183,fantasy
-the invisible man,H.G. Wells,184,gen_fiction
-holes,Louis Sachar,185,gen_fiction
-siddhartha,Hermann Hesse,186,gen_fiction
-a tree grows in brooklyn,Betty Smith,187,gen_fiction
-"through the looking-glass, and what alice found there",Lewis Carroll,188,fantasy
-in cold blood,Truman Capote,189,gen_fiction
-house of the spirits,Isabel Allende,190,gen_fiction
-adam bede,George Eliot,191,romance
-betrothed,Alessandro Manzoni,192,history
-book thief,Markus Zusak,193,history
-their eyes were watching god,Zora Neale Hurston,194,gen_fiction
-one day in the life of ivan denisovich,Aleksandr Isaevich Solzhenitsyn,195,gen_fiction
-sea wolf,Jack London,196,gen_fiction
-catching fire,Suzanne Collins,197,scifi
-"roll of thunder, hear my cry",Mildred D. Taylor,198,history
-death comes for the archbishop,Willa Cather,199,history
-house of mirth,Edith Wharton,200,gen_fiction
-light in august,William Faulkner,201,gen_fiction
-pickwick papers,Charles Dickens,202,gen_fiction
-remembrance of things past,Marcel Proust,203,autobio
-barchester towers and the warden,Anthony Trollope,204,gen_fiction
-bridge of san luis rey,Thornton Wilder,205,history
-help,Kathryn Stockett,206,history
-murder on the orient express,Agatha Christie,207,mystery
-lovely bones,Alice Sebold,208,gen_fiction
-appeal,John Grisham,209,gen_fiction
-dombey and son,Charles Dickens,210,gen_fiction
-slaughterhouse-five,Kurt Vonnegut,211,scifi
-an american tragedy,Theodore Dreiser,212,romance
-bluest eye,Toni Morrison,213,bildung
-little house in the big woods,Laura Ingalls Wilder,214,history
-pippi longstocking,Astrid Lindgren,215,gen_fiction
-germinal,Émile Zola,216,political
-heart is a lonely hunter,Carson McCullers,217,gen_fiction
-woman in white,Wilkie Collins,218,gen_fiction
-"absalom, absalom!",William Faulkner,219,gen_fiction
-a painted house,John Grisham,220,gen_fiction
-girl with the dragon tattoo,Stieg Larsson,221,thrillers
-a room with a view,E.M. Forster,222,gen_fiction
-watership down,Richard Adams,223,allegories
-memoirs of a geisha,Arthur Golden,224,history
-our mutual friend,Charles Dickens,225,romance
-babbitt,Sinclair Lewis,226,gen_fiction
-red pony,John Steinbeck,227,bildung
-all the king's men,Robert Penn Warren,228,political
-things fall apart,Chinua Achebe,229,history
-lorna doone,R.D. Blackmore,230,history
-johnny tremain,Esther Forbes,231,history
-anne of avonlea,L.M. Montgomery,232,gen_fiction
-tuck everlasting,Natalie Babbitt,233,fantasy
-bfg,Roald Dahl,234,gen_fiction
-cannery row,John Steinbeck,235,romance
-joy luck club,Amy Tan,236,gen_fiction
-silmarillion,J.R.R. Tolkien,237,fantasy
-roots,Alex Haley,238,gen_fiction
-little house on the prairie,Laura Ingalls Wilder,239,autobio
-native son,Richard Wright,240,gen_fiction
-stuart little,E.B. White,241,action
-cross fire,James Patterson,242,gen_fiction
-power and the glory,Graham Greene,243,mystery
-a clockwork orange,Anthony Burgess,244,scifi
-phantom of the opera,Gaston Leroux,245,horror
-martian chronicles,Ray Bradbury,246,scifi
-road,Cormac McCarthy,247,gen_fiction
-way of all flesh,Samuel Butler,248,gen_fiction
-diary of a wimpy kid,Jeff Kinney,249,gen_fiction
-villette,Charlotte Brontë,250,gen_fiction
-curious incident of the dog in the night-time,Mark Haddon,251,mystery
-mysterious island,Jules Verne,252,scifi
-song of solomon,Toni Morrison,253,gen_fiction
-nana,Émile Zola,254,gen_fiction
-quo vadis,Henryk Sienkiewicz,255,history
-main street,Sinclair Lewis,256,gen_fiction
-matilda,Roald Dahl,257,gen_fiction
-lolita,Vladimir Vladimirovich Nabokov,258,romance
-paper towns,John Green,259,bildung
-sounder,William H. Armstrong,260,gen_fiction
-"are you there god? it's me, margaret",Judy Blume,261,gen_fiction
-notebook,Nicholas Sparks,262,romance
-from the mixed-up files of mrs. basil e. frankweiler,E.L. Konigsburg,263,gen_fiction
-atlas shrugged,Ayn Rand,264,scifi
-fountainhead,Ayn Rand,265,gen_fiction
-number the stars,Lois Lowry,266,history
-firm,John Grisham,267,gen_fiction
-swann's way,Marcel Proust,268,autobio
-ender's game,Orson Scott Card,269,scifi
-name of the rose,Umberto Eco,270,history
-a time to kill,John Grisham,271,gen_fiction
-water for elephants,Sara Gruen,272,romance
-time machine,H.G. Wells,273,scifi
-eragon,Christopher Paolini,274,fantasy
-hitchhiker's guide to the galaxy,Douglas Adams,275,scifi
-buddenbrooks,Thomas Mann,276,gen_fiction
-a thousand splendid suns,Khaled Hosseini,277,gen_fiction
-witch of blackbird pond,Elizabeth George Speare,278,gen_fiction
-and then there were none,Agatha Christie,279,mystery
-a separate peace,John Knowles,280,history
-breaking dawn,Stephenie Meyer,281,romance
-as i lay dying,William Faulkner,282,gen_fiction
-girl who played with fire,Stieg Larsson,283,thrillers
-where the red fern grows,Wilson Rawls,284,bildung
-le morte d'arthur,Thomas Malory,285,gen_fiction
-mockingjay,Suzanne Collins,286,scifi
-pillars of the earth,Ken Follett,287,history
-persian letters,Montesquieu,288,gen_fiction
-client,John Grisham,289,gen_fiction
-sula,Toni Morrison,290,gen_fiction
-tales of a fourth grade nothing,Judy Blume,291,gen_fiction
-merry adventures of robin hood of great renown in nottinghamshire,Howard Pyle,292,gen_fiction
-tortilla flat,John Steinbeck,293,gen_fiction
-"look homeward, angel",Thomas Wolfe,294,gen_fiction
-mystery of edwin drood,Charles Dickens,295,gen_fiction
-brideshead revisited,Evelyn Waugh,296,gen_fiction
-pelican brief,John Grisham,297,mystery
-atonement,Ian McEwan,298,gen_fiction
-washington square,Henry James,299,gen_fiction
-like water for chocolate,Laura Esquivel,300,romance
-golden compass,Philip Pullman,301,gen_fiction
-secret life of bees,Sue Monk Kidd,302,gen_fiction
-fault in our stars,John Green,303,romance
-nostromo,Joseph Conrad,304,political
-finnegans wake,James Joyce,305,gen_fiction
-brethren,John Grisham,306,thrillers
-coraline,Neil Gaiman,307,gen_fiction
-heart of darkness,Joseph Conrad,308,gen_fiction
-on the banks of plum creek,Laura Ingalls Wilder,309,autobio
-rebecca of sunnybrook farm,Kate Douglas Smith Wiggin,310,gen_fiction
-ambassadors,Henry James,311,gen_fiction
-secret agent,Joseph Conrad,312,political
-house on mango street,Sandra Cisneros,313,bildung
-go tell it on the mountain,James Baldwin,314,bildung
-testament,John Grisham,315,thrillers
-clan of the cave bear,Jean M. Auel,316,history
-cranford,Elizabeth Cleghorn Gaskell,317,gen_fiction
-because of winn-dixie,Kate DiCamillo,318,gen_fiction
-my side of the mountain,Jean Craighead George,319,gen_fiction
-runaway jury,John Grisham,320,thrillers
-mouse and the motorcycle,Beverly Cleary,321,gen_fiction
-lost symbol,Dan Brown,322,thrillers
-forsyte saga,John Galsworthy,323,gen_fiction
-gone girl,Gillian Flynn,324,thrillers
-lightning thief,Rick Riordan,325,fantasy
-last days of pompeii,Edward Bulwer Lytton,326,history
-reader,Bernhard Schlink,327,gen_fiction
-caddie woodlawn,Carol Ryrie Brink,328,gen_fiction
-tale of despereaux,Kate DiCamillo,329,gen_fiction
-girl who kicked the hornet's nest,Stieg Larsson,330,thrillers
-dear mr. henshaw,Beverly Cleary,331,gen_fiction
-killer angels,Michael Shaara,332,history
-chronicle of a death foretold,Gabriel García Márquez,333,gen_fiction
-five people you meet in heaven,Mitch Albom,334,gen_fiction
-master and margarita,Mikhail Bulgakov,335,political
-"winesburg, ohio",Sherwood Anderson,336,gen_fiction
-"""p"" is for peril",Sue Grafton,337,mystery
-my sister's keeper,Jodi Picoult,338,gen_fiction
-barnaby rudge,Charles Dickens,339,political
-howards end,E.M. Forster,340,gen_fiction
-broker,John Grisham,341,thrillers
-camel club,David Baldacci,342,political
-rainbow,D.H. Lawrence,343,gen_fiction
-man in the iron mask,Alexandre Dumas,344,history
-mary poppins,P.L. Travers,345,fantasy
-artemis fowl,Eoin Colfer,346,fantasy
-dear john,Nicholas Sparks,347,romance
-cold mountain,Charles Frazier,348,romance
-flowers for algernon,Daniel Keyes,349,gen_fiction
-dark is rising,Susan Cooper,350,fantasy
-resurrection,Leo Tolstoy,351,gen_fiction
-fearless fourteen,Janet Evanovich,352,mystery
-a sentimental journey through france and italy,Laurence Sterne,353,gen_fiction
-king of torts,John Grisham,354,thrillers
-graveyard book,Neil Gaiman,355,gen_fiction
-quiet american,Graham Greene,356,political
-chamber,John Grisham,357,gen_fiction
-english patient,Michael Ondaatje,358,history
-snow falling on cedars,David Guterson,359,gen_fiction
-long winter,Laura Ingalls Wilder,360,autobio
-"sarah, plain and tall",Patricia MacLachlan,361,gen_fiction
-cross country,James Patterson,362,thrillers
-spy who came in from the cold,John Le Carré,363,gen_fiction
-a game of thrones,George R.R. Martin,364,fantasy
-thorn birds,Colleen McCullough,365,gen_fiction
-old yeller,Fred Gipson,366,bildung
-"ramona quimby, age 8",Beverly Cleary,367,gen_fiction
-death in venice,Thomas Mann,368,gen_fiction
-by the shores of silver lake,Laura Ingalls Wilder,369,autobio
-inferno,Dan Brown,370,thrillers
-schindler's list,Thomas Keneally,371,gen_fiction
-jonathan livingston seagull,Richard Bach,372,allegories
-stand,Stephen King,373,horror
-last juror,John Grisham,374,thrillers
-shiloh,Phyllis Reynolds Naylor,375,gen_fiction
-girl with a pearl earring,Tracy Chevalier,376,gen_fiction
-murder of roger ackroyd,Agatha Christie,377,mystery
-it,Stephen King,378,horror
-rainmaker,John Grisham,379,gen_fiction
-poisonwood bible,Barbara Kingsolver,380,gen_fiction
-indian in the cupboard,Lynne Reid Banks,381,fantasy
-maltese falcon,Dashiell Hammett,382,mystery
-warden,Anthony Trollope,383,gen_fiction
-summons,John Grisham,384,thrillers
-encyclopedia brown,Donald J.  Sobol,385,mystery
-time traveler's wife,Audrey Niffenegger,386,gen_fiction
-incredible journey,Sheila Burnford,387,action
-daughter of fortune,Isabel Allende,388,romance
-shirley,Charlotte Brontë,389,history
-"bud, not buddy",Christopher Paul Curtis,390,history
-horse whisperer,Nicholas Evans,391,gen_fiction
-street lawyer,John Grisham,392,thrillers
-nausea,Jean-Paul Sartre,393,gen_fiction
-to have and have not,Ernest Hemingway,394,action
-bridges of madison county,Robert James Waller,395,romance
-anne of the island,L.M. Montgomery,396,gen_fiction
-winter of our discontent,John Steinbeck,397,gen_fiction
-shining,Stephen King,398,horror
-tenant of wildfell hall,Anne Brontë,399,gen_fiction
-first family,David Baldacci,400,thrillers
-partner,John Grisham,401,thrillers
-girl on the train,Paula Hawkins,402,gen_fiction
-black arrow,Robert Louis Stevenson,403,history
-rise of silas lapham,William Dea Howells,404,gen_fiction
-choice,Nicholas Sparks,405,romance
-virginian,Owen Wister,406,gen_fiction
-a walk to remember,Nicholas Sparks,407,romance
-maze runner,James Dashner,408,scifi
-westing game,Ellen Raskin,409,mystery
-misty of chincoteague,Marguerite Henry,410,gen_fiction
-diary of a wimpy kid,Jeff Kinney,411,gen_fiction
-king solomon's mines,H. Rider Haggard,412,action
-princess of cleves,Madame de (Marie-Madeleine Pioche de La Vergne) La Fayett,413,gen_fiction
-jacob have i loved,Katherine Paterson,414,gen_fiction
-mrs. frisby and the rats of nimh,Robert C. O'Brien,415,fantasy
-misery,Stephen King,416,horror
-cider house rules,John Irving,417,bildung
-king of the wind,Marguerite Henry,418,history
-once and future king,T. H. White,419,fantasy
-witches,Roald Dahl,420,gen_fiction
-subtle knife,Philip Pullman,421,fantasy
-when you reach me,Rebecca Stead,422,gen_fiction
-carrie,Stephen King,423,horror
-moon and sixpence,W. Somerset Maugham,424,gen_fiction
-higher power of lucky,Susan Patron,425,gen_fiction
-"looking backward, 2000-1887",Edward Bellamy,426,gen_fiction
-wings of the dove,Henry James,427,romance
-summer of the swans,Betsy Cromer Byars,428,gen_fiction
-dangerous liaisons,Choderlos de Laclos,429,gen_fiction
-jurassic park,Michael Crichton,430,scifi
-absolutely true diary of a part-time indian,Sherman Alexie,431,gen_fiction
-grey king,Susan Cooper,432,fantasy
-leopard,Giuseppe Tomasi di Lampedusa,433,history
-mammoth hunters,Jean M. Auel,434,history
-trumpet of the swan,E.B. White,435,fantasy
-lucky one,Nicholas Sparks,436,romance
-these happy golden years,Laura Ingalls Wilder,437,history
-arrowsmith,Sinclair Lewis,438,gen_fiction
-julie of the wolves,Jean Craighead George,439,action
-screwtape letters,C.S. Lewis,440,gen_fiction
-fall,Albert Camus,441,gen_fiction
-no. 1 ladies' detective agency,Alexander McCall Smith,442,mystery
-worst case,James Patterson,443,thrillers
-lost horizon,James Hilton,444,fantasy
-gunslinger,Stephen King,445,fantasy
-slave dancer,Paula Fox,446,history
-harry potter and the half-blood prince,J.K. Rowling,447,fantasy
-inkheart,Cornelia Funke,448,fantasy
-ramona and her father,Beverly Cleary,449,gen_fiction
-inkspell,Cornelia Funke,450,fantasy
-ramona the pest,Beverly Cleary,451,gen_fiction
-walk two moons,Sharon Creech,452,bildung
-miss peregrine's home for peculiar children,Ransom Riggs,453,gen_fiction
-chocolate war,Robert Cormier,454,bildung
-sophie's choice,William Styron,455,bildung
-looking for alaska,John Green,456,bildung
-breakfast at tiffany's,Truman Capote,457,gen_fiction
-razor's edge,W. Somerset Maugham,458,bildung
-dreamcatcher,Stephen King,459,horror
-orlando,Virginia Woolf,460,history
-things they carried,Tim O'Brien,461,gen_fiction
-little town on the prairie,Laura Ingalls Wilder,462,history
-nights in rodanthe,Nicholas Sparks,463,romance
-amber spyglass,Philip Pullman,464,fantasy
-miraculous journey of edward tulane,Kate DiCamillo,465,gen_fiction
-flatland,Edwin A. Abbott,466,gen_fiction
-diary of a wimpy kid,Jeff  Kinney,467,gen_fiction
-memory keeper's daughter,Kim Edwards,468,gen_fiction
-wedding,Nicholas Sparks,469,romance
-fried green tomatoes at the whistle-stop cafe,Fannie Flagg,470,gen_fiction
-cricket in times square,George Selden,471,gen_fiction
-phantom tollbooth,Norton Juster,472,fantasy
-rob roy,Walter Scott,473,history
-death of ivan ilych,Leo Tolstoy,474,gen_fiction
-alex cross's trial,James Patterson,475,thrillers
-kenilworth,Walter Scott,476,history
-life and opinions of tristram shandy,Laurence Sterne,477,gen_fiction
-remains of theday,Kazuo Ishiguro,478,history
-"m.c. higgins, great",Virginia Hamilton,479,bildung
-call it courage,Armstrong Sperry,480,history
-go set a watchman,Harper Lee,481,gen_fiction
-bleachers,John Grisham,482,gen_fiction
-elijah of buxton,Christopher Paul Curtis,483,gen_fiction
-swimsuit,James Patterson,484,mystery
-cat's cradle,Kurt Vonnegut,485,scifi
-caine mutiny,Herman Wouk,486,gen_fiction
-heart of the matter,Graham Greene,487,gen_fiction
-"harriet, the spy",Louise Fitzhugh,488,mystery
-darkness at noon,Arthur Koestler,489,history
-a prayer for owen meany,John Irving,490,gen_fiction
-god of small things,Arundhati Roy,491,gen_fiction
-associate,John Grisham,492,thrillers
-shack,William P. Young,493,gen_fiction
-naked and the dead,Norman Mailer,494,history
-sea of monsters,Rick Riordan,495,fantasy
-stranger in a strange land,Robert A. Heinlein,496,scifi
-vision in white,Nora Roberts,497,romance
-whipping boy,Sid Fleischman,498,action
-room,Emma Donoghue,499,gen_fiction
-deception point,Dan Brown,500,political
+Don Quixote,Miguel de Cervantes,1,action
+Alice's Adventures in Wonderland,Lewis Carroll,2,fantasy
+The Adventures of Huckleberry Finn,Mark Twain,3,action
+The Adventures of Tom Sawyer,Mark Twain,4,action
+Treasure Island,Robert Louis Stevenson,5,action
+Pride and Prejudice,Jane Austen,6,romance
+Wuthering Heights,Emily Brontë,7,gen_fiction
+Jane Eyre,Charlotte Brontë,8,romance
+Moby Dick,Herman Melville,9,gen_fiction
+The Scarlet Letter,Nathaniel Hawthorne,10,gen_fiction
+Gulliver's Travels,Jonathan Swift,11,fantasy
+The Pilgrim's Progress,John Bunyan,12,allegories
+A Christmas Carol,Charles Dickens,13,gen_fiction
+David Copperfield,Charles Dickens,14,bildung
+A Tale of Two Cities,Charles Dickens,15,history
+Little Women,Louisa May Alcott,16,gen_fiction
+Great Expectations,Charles Dickens,17,bildung
+"The Hobbit, or, There and Back Again",J.R.R. Tolkien,18,fantasy
+"Frankenstein, or, the Modern Prometheus",Mary Shelley,19,horror
+Oliver Twist,Charles Dickens,20,bildung
+Uncle Tom's Cabin,Harriet Beecher Stowe,21,political
+Crime and Punishment,Fyodor Dostoyevsky,22,gen_fiction
+Madame Bovary: Patterns of Provincial life,Gustave Flaubert,23,gen_fiction
+The Return of the King,J.R.R. Tolkien,24,fantasy
+Dracula,Bram Stoker,25,gen_fiction
+The Three Musketeers,Alexandre Dumas,26,history
+Brave New World,Aldous Huxley,27,gen_fiction
+War and Peace,Leo Tolstoy,28,history
+To Kill a Mockingbird,Harper Lee,29,gen_fiction
+The Wizard of Oz,L. Frank Baum,30,fantasy
+Les Misérables,Victor Hugo,31,gen_fiction
+The Secret Garden,Frances Hodgson Burnett,32,gen_fiction
+Animal Farm,George Orwell,33,political
+The Great Gatsby,F. Scott Fitzgerald,34,gen_fiction
+The Little Prince,Antoine de Saint-Exupéry,35,gen_fiction
+The Call of the Wild,Jack London,36,action
+"20,000 Leagues Under the Sea",Jules Verne,37,scifi
+Anna Karenina,Leo Tolstoy,38,romance
+The Wind in the Willows,Kenneth Grahame,39,fantasy
+The Picture of Dorian Gray,Oscar Wilde,40,gen_fiction
+The Grapes of Wrath,John Steinbeck,41,gen_fiction
+Sense and Sensibility,Jane Austen,42,romance
+The Last of the Mohicans,James Fenimore Cooper,43,history
+Tess of the d'Urbervilles,Thomas Hardy,44,gen_fiction
+Harry Potter and the Sorcerer's Stone,J.K. Rowling,45,fantasy
+Heidi,Johanna Spyri,46,gen_fiction
+Ulysses,James Joyce,47,gen_fiction
+The Complete Sherlock Holmes,Arthur Conan Doyle,48,mystery
+The Count of Monte Cristo,Alexandre Dumas,49,history
+The Old Man and the Sea,Ernest Hemingway,50,allegories
+"The Lion, the Witch, and the Wardrobe",C.S. Lewis,51,fantasy
+The Hunchback of Notre Dame,Victor Hugo,52,history
+Pinocchio,Carlo Collodi,53,gen_fiction
+One Hundred Years of Solitude,Gabriel García Márquez,54,gen_fiction
+Ivanhoe,Walter Scott,55,history
+The Red Badge of Courage,Stephen Crane,56,history
+Anne of Green Gables,L.M. Montgomery,57,gen_fiction
+Black Beauty,Anna Sewell,58,gen_fiction
+Peter Pan,J.M. Barrie,59,fantasy
+A Farewell to Arms,Ernest Hemingway,60,war
+The House of the Seven Gables,Nathaniel Hawthorne,61,gen_fiction
+Lord of the Flies,William Golding,62,gen_fiction
+The Prince and the Pauper,Mark Twain,63,history
+A Portrait of the Artist as a Young Man,James Joyce,64,bildung
+Lord Jim,Joseph Conrad,65,gen_fiction
+Harry Potter and the Chamber of Secrets,J.K. Rowling,66,fantasy
+The Red & the Black,Stendhal,67,bildung
+The Stranger,Albert Camus,68,gen_fiction
+The Trial,Franz Kafka,69,allegories
+Lady Chatterley's Lover,D.H. Lawrence,70,gen_fiction
+Kidnapped: The Adventures of David Balfour,Robert Louis Stevenson,71,history
+The Catcher in the Rye,J.D. Salinger,72,bildung
+Fahrenheit 451,Ray Bradbury,73,scifi
+A Journey to the Center of the Earth,Jules Verne,74,scifi
+Vanity Fair,William Makepeace Thackeray,75,gen_fiction
+All Quiet on the Western Front,Erich Maria Remarque,76,war
+Gone with the Wind,Margaret Mitchell,77,history
+My Ántonia,Willa Cather,78,gen_fiction
+Of Mice and Men,John Steinbeck,79,gen_fiction
+The Vicar of Wakefield,Oliver Goldsmith,80,gen_fiction
+A Connecticut Yankee in King Arthur's Court,Mark Twain,81,fantasy
+White Fang,Jack London,82,action
+Fathers and Sons,Ivan Sergeevich Turgenev,83,gen_fiction
+Doctor Zhivago,Boris Leonidovich Pasternak,84,history
+The Decameron,Giovanni Boccaccio,85,gen_fiction
+Nineteen Eighty-Four,George Orwell,86,political
+The Jungle,Upton Sinclair,87,political
+The Da Vinci Code,Dan Brown,88,mystery
+Persuasion,Jane Austen,89,romance
+Mansfield Park,Jane Austen,90,romance
+Candide,Voltaire,91,gen_fiction
+For Whom the Bell Tolls,Ernest Hemingway,92,war
+Far from the Madding Crowd,Thomas Hardy,93,romance
+The Fellowship of the Ring,J.R.R. Tolkien,94,fantasy
+The Return of the Native,Thomas Hardy,95,romance
+Sons and Lovers,D.H. Lawrence,96,gen_fiction
+Charlotte's Web,E.B. White,97,fantasy
+The Swiss Family Robinson,Johann David Wyss,98,gen_fiction
+Bleak House,Charles Dickens,99,gen_fiction
+Père Goriot,Honoré de Balzac,100,bildung
+Utopia,Thomas More,101,gen_fiction
+"The History of Tom Jones, a Foundling",Henry Fielding,102,gen_fiction
+Harry Potter and the Prisoner of Azkaban,J.K. Rowling,103,fantasy
+Kim,Rudyard Kipling,104,action
+The Sound and the Fury,William Faulkner,105,gen_fiction
+Harry Potter and the Goblet of Fire,J.K. Rowling,106,fantasy
+The Mill on the Floss,George Eliot,107,gen_fiction
+A Wrinkle in Time,Madeleine L'Engle,108,scifi
+The Hound of the Baskervilles,Arthur Conan Doyle,109,mystery
+The Two Towers,J.R.R. Tolkien,110,fantasy
+The War of the Worlds,H.G. Wells,111,scifi
+Middlemarch,George Eliot,112,gen_fiction
+The Age of Innocence,Edith Wharton,113,gen_fiction
+The Color Purple,Alice Walker,114,gen_fiction
+Northanger Abbey,Jane Austen,115,romance
+East of Eden,John Steinbeck,116,gen_fiction
+On the Road,Jack Kerouac,117,autobio
+Catch-22,Joseph Heller,118,war
+Around the World in Eighty Days,Jules Verne,119,action
+Hard Times,Charles Dickens,120,gen_fiction
+Beloved,Toni Morrison,121,history
+Mrs. Dalloway,Virginia Woolf,122,gen_fiction
+To the Lighthouse,Virginia Woolf,123,gen_fiction
+The Magician's Nephew,C.S. Lewis,124,fantasy
+Harry Potter and the Order of the Phoenix,J.K. Rowling,125,fantasy
+The Sun Also Rises,Ernest Hemingway,126,history
+The Good Earth,Pearl S. Buck,127,gen_fiction
+Silas Marner,George Eliot,128,gen_fiction
+Love in the Time of Cholera,Gabriel García Márquez,129,romance
+Rebecca,Daphne Du Maurier,130,romance
+Jude the Obscure,Thomas Hardy,131,gen_fiction
+Twilight,Stephenie Meyer,132,romance
+A Passage to India,E.M. Forster,133,political
+The Plague,Albert Camus,134,gen_fiction
+Nicholas Nickleby,Charles Dickens,135,bildung
+The Pearl,John Steinbeck,136,gen_fiction
+Ethan Frome,Edith Wharton,137,gen_fiction
+The Tale of Genji,Murasaki Shikibu,138,gen_fiction
+The Giver,Lois Lowry,139,scifi
+The Alchemist,Paulo Coelho,140,gen_fiction
+The Strange Case of Dr. Jekyll and Mr. Hyde,Robert Louis Stevenson,141,gen_fiction
+Robinson Crusoe,Daniel Defoe,142,action
+Tender is the Night,F. Scott Fitzgerald,143,gen_fiction
+The Idiot,Fyodor Dostoyevsky,144,history
+Hatchet,Gary Paulsen,145,action
+The Kite Runner,Khaled Hosseini,146,bildung
+One Flew Over the Cuckoo's Nest,Ken Kesey,147,gen_fiction
+The Portrait of a Lady,Henry James,148,gen_fiction
+The Outsiders,S.E. Hinton,149,gen_fiction
+Ben-Hur,Lew Wallace,150,history
+The Mayor of Casterbridge,Thomas Hardy,151,gen_fiction
+"Cry, The Beloved Country",Alan Paton,152,political
+The Last Battle,C.S. Lewis,153,fantasy
+Captains Courageous,Rudyard Kipling,154,bildung
+The Castle,Franz Kafka,155,allegories
+The Metamorphosis,Franz Kafka,156,gen_fiction
+The Magic Mountain (Der Zauberberg),Thomas Mann,157,bildung
+James and the Giant Peach,Roald Dahl,158,gen_fiction
+The Horse and His Boy,C.S. Lewis,159,fantasy
+Angels & Demons,Dan Brown,160,thrillers
+The Voyage of the Dawn Treader,C.S. Lewis,161,fantasy
+The Bell Jar,Sylvia Plath,162,gen_fiction
+Women in Love,D.H. Lawrence,163,gen_fiction
+The Yearling,Marjorie Kinnan Rawlings,164,gen_fiction
+O Pioneers!,Willa Cather,165,gen_fiction
+The Handmaid's Tale,Margaret Atwood,166,gen_fiction
+The Moonstone,Wilkie Collins,167,mystery
+The Old Curiosity Shop,Charles Dickens,168,gen_fiction
+Little Dorrit,Charles Dickens,169,gen_fiction
+Prince Caspian: The Return to Narnia,C.S. Lewis,170,fantasy
+Sister Carrie,Theodore Dreiser,171,gen_fiction
+The Silver Chair,C.S. Lewis,172,fantasy
+The Hunger Games,Suzanne Collins,173,scifi
+This Side of Paradise,F. Scott Fitzgerald,174,bildung
+Eugénie Grandet,Honoré de Balzac,175,allegories
+Of Human Bondage,W. Somerset Maugham,176,bildung
+Dream of the Red Chamber,Cao Xueqin,177,gen_fiction
+Life of Pi,Yann Martel,178,gen_fiction
+Harry Potter and the Deathly Hallows,J.K. Rowling,179,fantasy
+Invisible Man,Ralph Ellison,180,gen_fiction
+Steppenwolf,Hermann Hesse,181,gen_fiction
+The Sorrows of Young Werther,Johann Wolfgang von Goethe,182,autobio
+Bridge to Terabithia,Katherine Paterson,183,fantasy
+The Invisible Man,H.G. Wells,184,gen_fiction
+Holes,Louis Sachar,185,gen_fiction
+Siddhartha,Hermann Hesse,186,gen_fiction
+A Tree Grows in Brooklyn,Betty Smith,187,gen_fiction
+"Through the Looking-Glass, and What Alice Found There",Lewis Carroll,188,fantasy
+In Cold Blood,Truman Capote,189,gen_fiction
+The House of the Spirits,Isabel Allende,190,gen_fiction
+Adam Bede,George Eliot,191,romance
+The Betrothed,Alessandro Manzoni,192,history
+The Book Thief,Markus Zusak,193,history
+Their Eyes Were Watching God,Zora Neale Hurston,194,gen_fiction
+One Day in the Life of Ivan Denisovich,Aleksandr Isaevich Solzhenitsyn,195,gen_fiction
+The Sea Wolf,Jack London,196,gen_fiction
+Catching Fire,Suzanne Collins,197,scifi
+"Roll of Thunder, Hear My Cry",Mildred D. Taylor,198,history
+Death Comes for the Archbishop,Willa Cather,199,history
+The House of Mirth,Edith Wharton,200,gen_fiction
+Light in August,William Faulkner,201,gen_fiction
+The Pickwick Papers,Charles Dickens,202,gen_fiction
+Remembrance of Things Past,Marcel Proust,203,autobio
+Barchester Towers and the Warden,Anthony Trollope,204,gen_fiction
+The Bridge of San Luis Rey,Thornton Wilder,205,history
+The Help,Kathryn Stockett,206,history
+Murder on the Orient Express,Agatha Christie,207,mystery
+The Lovely Bones,Alice Sebold,208,gen_fiction
+The Appeal,John Grisham,209,gen_fiction
+Dombey And Son,Charles Dickens,210,gen_fiction
+Slaughterhouse-Five,Kurt Vonnegut,211,scifi
+An American Tragedy,Theodore Dreiser,212,romance
+The Bluest Eye,Toni Morrison,213,bildung
+Little House In the Big Woods,Laura Ingalls Wilder,214,history
+Pippi Longstocking,Astrid Lindgren,215,gen_fiction
+Germinal,Émile Zola,216,political
+The Heart Is a Lonely Hunter,Carson McCullers,217,gen_fiction
+The Woman In White,Wilkie Collins,218,gen_fiction
+"Absalom, Absalom!",William Faulkner,219,gen_fiction
+A Painted House,John Grisham,220,gen_fiction
+The Girl With the Dragon Tattoo,Stieg Larsson,221,thrillers
+A Room With a View,E.M. Forster,222,gen_fiction
+Watership Down,Richard Adams,223,allegories
+Memoirs of a Geisha,Arthur Golden,224,history
+Our Mutual Friend,Charles Dickens,225,romance
+Babbitt,Sinclair Lewis,226,gen_fiction
+The Red Pony,John Steinbeck,227,bildung
+All the King's Men,Robert Penn Warren,228,political
+Things Fall Apart,Chinua Achebe,229,history
+Lorna Doone,R.D. Blackmore,230,history
+Johnny Tremain,Esther Forbes,231,history
+Anne of Avonlea,L.M. Montgomery,232,gen_fiction
+Tuck Everlasting,Natalie Babbitt,233,fantasy
+The BFG,Roald Dahl,234,gen_fiction
+Cannery Row,John Steinbeck,235,romance
+The Joy Luck Club,Amy Tan,236,gen_fiction
+The Silmarillion,J.R.R. Tolkien,237,fantasy
+Roots,Alex Haley,238,gen_fiction
+Little House on the Prairie,Laura Ingalls Wilder,239,autobio
+Native Son,Richard Wright,240,gen_fiction
+Stuart Little,E.B. White,241,action
+Cross Fire,James Patterson,242,gen_fiction
+The Power and the Glory,Graham Greene,243,mystery
+A Clockwork Orange,Anthony Burgess,244,scifi
+The Phantom of the Opera,Gaston Leroux,245,horror
+The Martian Chronicles,Ray Bradbury,246,scifi
+The Road,Cormac McCarthy,247,gen_fiction
+The Way of All Flesh,Samuel Butler,248,gen_fiction
+Diary of a Wimpy Kid: The Long Haul,Jeff Kinney,249,gen_fiction
+Villette,Charlotte Brontë,250,gen_fiction
+The Curious Incident of the Dog In the Night-Time,Mark Haddon,251,mystery
+The Mysterious Island,Jules Verne,252,scifi
+Song of Solomon,Toni Morrison,253,gen_fiction
+Nana,Émile Zola,254,gen_fiction
+Quo Vadis,Henryk Sienkiewicz,255,history
+Main Street,Sinclair Lewis,256,gen_fiction
+Matilda,Roald Dahl,257,gen_fiction
+Lolita,Vladimir Vladimirovich Nabokov,258,romance
+Paper Towns,John Green,259,bildung
+Sounder,William H. Armstrong,260,gen_fiction
+"Are You There God? It's Me, Margaret",Judy Blume,261,gen_fiction
+The Notebook,Nicholas Sparks,262,romance
+From the Mixed-Up Files of Mrs. Basil E. Frankweiler,E.L. Konigsburg,263,gen_fiction
+Atlas Shrugged,Ayn Rand,264,scifi
+The Fountainhead,Ayn Rand,265,gen_fiction
+Number the Stars,Lois Lowry,266,history
+The Firm,John Grisham,267,gen_fiction
+Swann's Way,Marcel Proust,268,autobio
+Ender's Game,Orson Scott Card,269,scifi
+The Name of the Rose,Umberto Eco,270,history
+A Time to Kill,John Grisham,271,gen_fiction
+Water for Elephants,Sara Gruen,272,romance
+The Time Machine,H.G. Wells,273,scifi
+Eragon,Christopher Paolini,274,fantasy
+The Hitchhiker's Guide to the Galaxy,Douglas Adams,275,scifi
+Buddenbrooks,Thomas Mann,276,gen_fiction
+A Thousand Splendid Suns,Khaled Hosseini,277,gen_fiction
+The Witch of Blackbird Pond,Elizabeth George Speare,278,gen_fiction
+And Then There Were None,Agatha Christie,279,mystery
+A Separate Peace,John Knowles,280,history
+Breaking Dawn,Stephenie Meyer,281,romance
+As I Lay Dying,William Faulkner,282,gen_fiction
+The Girl Who Played With Fire,Stieg Larsson,283,thrillers
+Where the Red Fern Grows,Wilson Rawls,284,bildung
+Le Morte D'Arthur,Thomas Malory,285,gen_fiction
+Mockingjay,Suzanne Collins,286,scifi
+The Pillars of the Earth,Ken Follett,287,history
+Persian Letters,Montesquieu,288,gen_fiction
+The Client,John Grisham,289,gen_fiction
+Sula,Toni Morrison,290,gen_fiction
+Tales of a Fourth Grade Nothing,Judy Blume,291,gen_fiction
+The Merry Adventures of Robin Hood of Great Renown In Nottinghamshire,Howard Pyle,292,gen_fiction
+Tortilla Flat,John Steinbeck,293,gen_fiction
+"Look Homeward, Angel",Thomas Wolfe,294,gen_fiction
+The Mystery of Edwin Drood,Charles Dickens,295,gen_fiction
+Brideshead Revisited,Evelyn Waugh,296,gen_fiction
+The Pelican Brief,John Grisham,297,mystery
+Atonement,Ian McEwan,298,gen_fiction
+Washington Square,Henry James,299,gen_fiction
+Like Water for Chocolate,Laura Esquivel,300,romance
+The Golden Compass,Philip Pullman,301,gen_fiction
+The Secret Life of Bees,Sue Monk Kidd,302,gen_fiction
+The Fault In Our Stars,John Green,303,romance
+Nostromo,Joseph Conrad,304,political
+Finnegans Wake,James Joyce,305,gen_fiction
+The Brethren,John Grisham,306,thrillers
+Coraline,Neil Gaiman,307,gen_fiction
+Heart of Darkness,Joseph Conrad,308,gen_fiction
+On the Banks of Plum Creek,Laura Ingalls Wilder,309,autobio
+Rebecca of Sunnybrook Farm,Kate Douglas Smith Wiggin,310,gen_fiction
+The Ambassadors,Henry James,311,gen_fiction
+The Secret Agent,Joseph Conrad,312,political
+The House on Mango Street,Sandra Cisneros,313,bildung
+Go Tell It on the Mountain,James Baldwin,314,bildung
+The Testament,John Grisham,315,thrillers
+The Clan of the Cave Bear,Jean M. Auel,316,history
+Cranford,Elizabeth Cleghorn Gaskell,317,gen_fiction
+Because of Winn-Dixie,Kate DiCamillo,318,gen_fiction
+My Side of the Mountain,Jean Craighead George,319,gen_fiction
+The Runaway Jury,John Grisham,320,thrillers
+The Mouse and the Motorcycle,Beverly Cleary,321,gen_fiction
+The Lost Symbol,Dan Brown,322,thrillers
+The Forsyte Saga,John Galsworthy,323,gen_fiction
+Gone Girl,Gillian Flynn,324,thrillers
+The Lightning Thief,Rick Riordan,325,fantasy
+The Last Days of Pompeii,Edward Bulwer Lytton,326,history
+The Reader,Bernhard Schlink,327,gen_fiction
+Caddie Woodlawn,Carol Ryrie Brink,328,gen_fiction
+The Tale of Despereaux,Kate DiCamillo,329,gen_fiction
+The Girl Who Kicked the Hornet's Nest,Stieg Larsson,330,thrillers
+Dear Mr. Henshaw,Beverly Cleary,331,gen_fiction
+The Killer Angels,Michael Shaara,332,history
+Chronicle of a Death Foretold,Gabriel García Márquez,333,gen_fiction
+The Five People You Meet In Heaven,Mitch Albom,334,gen_fiction
+The Master and Margarita,Mikhail Bulgakov,335,political
+"Winesburg, Ohio",Sherwood Anderson,336,gen_fiction
+"""P"" Is for Peril",Sue Grafton,337,mystery
+My Sister's Keeper,Jodi Picoult,338,gen_fiction
+Barnaby Rudge,Charles Dickens,339,political
+Howards End,E.M. Forster,340,gen_fiction
+The Broker,John Grisham,341,thrillers
+The Camel Club,David Baldacci,342,political
+The Rainbow,D.H. Lawrence,343,gen_fiction
+The Man In the Iron Mask,Alexandre Dumas,344,history
+Mary Poppins,P.L. Travers,345,fantasy
+Artemis Fowl,Eoin Colfer,346,fantasy
+Dear John,Nicholas Sparks,347,romance
+Cold Mountain,Charles Frazier,348,romance
+Flowers for Algernon,Daniel Keyes,349,gen_fiction
+The Dark Is Rising,Susan Cooper,350,fantasy
+Resurrection,Leo Tolstoy,351,gen_fiction
+Fearless Fourteen,Janet Evanovich,352,mystery
+A Sentimental Journey Through France and Italy,Laurence Sterne,353,gen_fiction
+The King of Torts,John Grisham,354,thrillers
+The Graveyard Book,Neil Gaiman,355,gen_fiction
+The Quiet American,Graham Greene,356,political
+The Chamber,John Grisham,357,gen_fiction
+The English Patient,Michael Ondaatje,358,history
+Snow Falling on Cedars,David Guterson,359,gen_fiction
+The Long Winter,Laura Ingalls Wilder,360,autobio
+"Sarah, Plain and Tall",Patricia MacLachlan,361,gen_fiction
+Cross Country,James Patterson,362,thrillers
+The Spy Who Came In from the Cold,John Le Carré,363,gen_fiction
+A Game of Thrones,George R.R. Martin,364,fantasy
+The Thorn Birds,Colleen McCullough,365,gen_fiction
+Old Yeller,Fred Gipson,366,bildung
+"Ramona Quimby, Age 8",Beverly Cleary,367,gen_fiction
+Death In Venice,Thomas Mann,368,gen_fiction
+By the Shores of Silver Lake,Laura Ingalls Wilder,369,autobio
+Inferno,Dan Brown,370,thrillers
+Schindler's List,Thomas Keneally,371,gen_fiction
+Jonathan Livingston Seagull,Richard Bach,372,allegories
+The Stand,Stephen King,373,horror
+The Last Juror,John Grisham,374,thrillers
+Shiloh,Phyllis Reynolds Naylor,375,gen_fiction
+Girl With a Pearl Earring,Tracy Chevalier,376,gen_fiction
+The Murder of Roger Ackroyd,Agatha Christie,377,mystery
+It,Stephen King,378,horror
+The Rainmaker,John Grisham,379,gen_fiction
+The Poisonwood Bible,Barbara Kingsolver,380,gen_fiction
+The Indian in the Cupboard,Lynne Reid Banks,381,fantasy
+The Maltese Falcon,Dashiell Hammett,382,mystery
+The Warden,Anthony Trollope,383,gen_fiction
+The Summons,John Grisham,384,thrillers
+Encyclopedia Brown: Boy Detective,Donald J.  Sobol,385,mystery
+The Time Traveler's Wife,Audrey Niffenegger,386,gen_fiction
+The Incredible Journey,Sheila Burnford,387,action
+Daughter of Fortune,Isabel Allende,388,romance
+Shirley,Charlotte Brontë,389,history
+"Bud, Not Buddy",Christopher Paul Curtis,390,history
+The Horse Whisperer,Nicholas Evans,391,gen_fiction
+The Street Lawyer,John Grisham,392,thrillers
+Nausea,Jean-Paul Sartre,393,gen_fiction
+To Have and Have Not,Ernest Hemingway,394,action
+The Bridges of Madison County,Robert James Waller,395,romance
+Anne of the Island,L.M. Montgomery,396,gen_fiction
+The Winter of Our Discontent,John Steinbeck,397,gen_fiction
+The Shining,Stephen King,398,horror
+The Tenant of Wildfell Hall,Anne Brontë,399,gen_fiction
+First Family,David Baldacci,400,thrillers
+The Partner,John Grisham,401,thrillers
+The Girl on the Train,Paula Hawkins,402,gen_fiction
+The Black Arrow: A Tale of the Two Roses,Robert Louis Stevenson,403,history
+The Rise of Silas Lapham,William Dea Howells,404,gen_fiction
+The Choice,Nicholas Sparks,405,romance
+The Virginian: A Horseman of the Plains,Owen Wister,406,gen_fiction
+A Walk to Remember,Nicholas Sparks,407,romance
+The Maze Runner,James Dashner,408,scifi
+The Westing Game,Ellen Raskin,409,mystery
+Misty of Chincoteague,Marguerite Henry,410,gen_fiction
+Diary of a Wimpy Kid: The Last Straw,Jeff Kinney,411,gen_fiction
+King Solomon's Mines,H. Rider Haggard,412,action
+The Princess of Cleves,Madame de (Marie-Madeleine Pioche de La Vergne) La Fayett,413,gen_fiction
+Jacob Have I Loved,Katherine Paterson,414,gen_fiction
+Mrs. Frisby and the Rats of NIMH,Robert C. O'Brien,415,fantasy
+Misery,Stephen King,416,horror
+The Cider House Rules,John Irving,417,bildung
+King of the Wind,Marguerite Henry,418,history
+The Once and Future King,T. H. White,419,fantasy
+The Witches,Roald Dahl,420,gen_fiction
+The Subtle Knife,Philip Pullman,421,fantasy
+When You Reach Me,Rebecca Stead,422,gen_fiction
+Carrie,Stephen King,423,horror
+The Moon and Sixpence,W. Somerset Maugham,424,gen_fiction
+The Higher Power of Lucky,Susan Patron,425,gen_fiction
+"Looking Backward, 2000-1887",Edward Bellamy,426,gen_fiction
+The Wings of the Dove,Henry James,427,romance
+The Summer of the Swans,Betsy Cromer Byars,428,gen_fiction
+Dangerous Liaisons,Choderlos de Laclos,429,gen_fiction
+Jurassic Park,Michael Crichton,430,scifi
+The Absolutely True Diary of a Part-time Indian,Sherman Alexie,431,gen_fiction
+The Grey King,Susan Cooper,432,fantasy
+The Leopard,Giuseppe Tomasi di Lampedusa,433,history
+The Mammoth Hunters,Jean M. Auel,434,history
+The Trumpet of the Swan,E.B. White,435,fantasy
+The Lucky One,Nicholas Sparks,436,romance
+These Happy Golden Years,Laura Ingalls Wilder,437,history
+Arrowsmith,Sinclair Lewis,438,gen_fiction
+Julie of the Wolves,Jean Craighead George,439,action
+The Screwtape Letters,C.S. Lewis,440,gen_fiction
+The Fall,Albert Camus,441,gen_fiction
+The No. 1 Ladies' Detective Agency,Alexander McCall Smith,442,mystery
+Worst Case,James Patterson,443,thrillers
+Lost Horizon,James Hilton,444,fantasy
+The Gunslinger,Stephen King,445,fantasy
+The Slave Dancer,Paula Fox,446,history
+Harry Potter and the Half-Blood Prince,J.K. Rowling,447,fantasy
+Inkheart,Cornelia Funke,448,fantasy
+Ramona and her Father,Beverly Cleary,449,gen_fiction
+Inkspell,Cornelia Funke,450,fantasy
+Ramona the Pest,Beverly Cleary,451,gen_fiction
+Walk Two Moons,Sharon Creech,452,bildung
+Miss Peregrine's Home for Peculiar Children,Ransom Riggs,453,gen_fiction
+The Chocolate War,Robert Cormier,454,bildung
+Sophie's Choice,William Styron,455,bildung
+Looking for Alaska,John Green,456,bildung
+Breakfast at Tiffany's,Truman Capote,457,gen_fiction
+The Razor's Edge,W. Somerset Maugham,458,bildung
+Dreamcatcher,Stephen King,459,horror
+Orlando,Virginia Woolf,460,history
+The Things they Carried,Tim O'Brien,461,gen_fiction
+Little Town on the Prairie,Laura Ingalls Wilder,462,history
+Nights in Rodanthe,Nicholas Sparks,463,romance
+The Amber Spyglass,Philip Pullman,464,fantasy
+The Miraculous Journey of Edward Tulane,Kate DiCamillo,465,gen_fiction
+Flatland,Edwin A. Abbott,466,gen_fiction
+Diary of a Wimpy Kid,Jeff  Kinney,467,gen_fiction
+The Memory Keeper's Daughter,Kim Edwards,468,gen_fiction
+The Wedding,Nicholas Sparks,469,romance
+Fried Green Tomatoes at the Whistle-Stop Cafe,Fannie Flagg,470,gen_fiction
+The Cricket in Times Square,George Selden,471,gen_fiction
+The Phantom Tollbooth,Norton Juster,472,fantasy
+Rob Roy,Walter Scott,473,history
+The Death of Ivan Ilych,Leo Tolstoy,474,gen_fiction
+Alex Cross's Trial,James Patterson,475,thrillers
+Kenilworth,Walter Scott,476,history
+The Life and Opinions of Tristram Shandy,Laurence Sterne,477,gen_fiction
+The Remains of theDay,Kazuo Ishiguro,478,history
+"M.C. Higgins, The Great",Virginia Hamilton,479,bildung
+Call It Courage,Armstrong Sperry,480,history
+Go Set a Watchman,Harper Lee,481,gen_fiction
+Bleachers,John Grisham,482,gen_fiction
+Elijah of Buxton,Christopher Paul Curtis,483,gen_fiction
+Swimsuit,James Patterson,484,mystery
+Cat's Cradle,Kurt Vonnegut,485,scifi
+The Caine Mutiny,Herman Wouk,486,gen_fiction
+The Heart of the Matter,Graham Greene,487,gen_fiction
+"Harriet, the Spy",Louise Fitzhugh,488,mystery
+Darkness at Noon,Arthur Koestler,489,history
+A Prayer for Owen Meany,John Irving,490,gen_fiction
+The God of Small Things,Arundhati Roy,491,gen_fiction
+The Associate,John Grisham,492,thrillers
+The Shack,William P. Young,493,gen_fiction
+The Naked and the Dead,Norman Mailer,494,history
+The Sea of Monsters,Rick Riordan,495,fantasy
+Stranger in a Strange Land,Robert A. Heinlein,496,scifi
+Vision in White,Nora Roberts,497,romance
+The Whipping Boy,Sid Fleischman,498,action
+Room,Emma Donoghue,499,gen_fiction
+Deception Point,Dan Brown,500,political
