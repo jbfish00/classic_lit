@@ -3,23 +3,11 @@ import re
 import requests
 from bs4 import BeautifulSoup
 import json
+from unidecode import unidecode
 
 
 def clean_title(title):
-    # Common replacements and standardizations
-    replacements = {
-        "20,000 Leagues Under the Sea": "Twenty Thousand Leagues Under the Sea",
-        "The Wonderful Wizard of Oz": "The Wizard of Oz",
-        "The Adventures of Oliver Twist": "Oliver Twist",
-        "&": "and",
-        "harry potter and the philosopher's stone": "harry potter and the sorcerer's stone",
-        "-": " ",
-        "the adventures of pinocchio": "pinocchio",
-        # Add more replacements as necessary
-    }
-    for old_title, new_title in replacements.items():
-        title = title.replace(old_title, new_title)
-
+    
     # Handle 'The Lord of the Rings' series titles
     lotr_titles = ["The Fellowship of the Ring", "The Two Towers", "The Return of the King"]
     if title in lotr_titles:
@@ -29,14 +17,61 @@ def clean_title(title):
     title = re.sub(r'\s*\([^)]*\)\s*', '', title).lower()
 
     # Remove all articles ('the', 'a', 'an') from the title
-    articles = ["the", "a", "an"]
-    for article in articles:
-        title = title.replace(article + " ", "").replace(" " + article, "")
+    title = re.sub(r'\b(the|a|an)\b', '', title)
+    title = re.sub(r'\s{2,}', ' ', title).strip()
+
 
     # Split on ', or,' and ':' and strip extra whitespace
     title = title.split(', or,')[0].split(':')[0].strip()
 
+
+# Common replacements and standardizations
+    replacements = {
+        "20,000 leagues under sea": "twenty thousand leagues under sea",
+        "wonderful wizard of oz": "wizard of oz",
+        "adventures of oliver twist": "oliver twist",
+        "&": "and",
+        "harry potter and philosopher's stone": "harry potter and sorcerer's stone",
+        "-": " ",
+        "adventures of pinocchio": "pinocchio",
+        ", and": " and",
+        "my Ã¡ntonia": "my antonia",
+        "pÃ¨re goriot": "father goriot",
+        "history of tom jones, foundling": "tom jones",
+        "eugÃ©nie grandet": "eugenie grandet",
+        "through looking glass and what alice found there": "through looking glass",
+        "barchester towers and warden": "barchester towers",
+        ".": "",
+        "merry adventures of robin hood of great renown in nottinghamshire": "merry adventures of robin hood",
+        "percy jackson and olympians, book one": "lightning thief"
+        # Add more replacements as necessary
+    }
+    for old_title, new_title in replacements.items():
+        title = title.replace(old_title, new_title)
+
+
     return title
+
+def fill_country_based_on_author(data):
+    # Create a dictionary mapping authors to countries
+    author_country_map = data.dropna(subset=['Author', 'countries']).set_index('Author')['countries'].to_dict()
+
+    # Manually adding specific authors
+    author_country_map['John Grisham'] = 'American'
+    author_country_map['Beverly Cleary'] = 'American'
+    author_country_map['James Patterson'] = 'American'
+
+
+    # Function to apply to each row
+    def fill_country(row):
+        if pd.isna(row['countries']) and row['Author'] in author_country_map:
+            return author_country_map[row['Author']]
+        return row['countries']
+
+    # Apply the function to the 'countries' column
+    data['countries'] = data.apply(fill_country, axis=1)
+    return data
+
 
 
 # Read the JSON file into a DataFrame (country, title, author, year)
@@ -44,7 +79,8 @@ with open('books.json') as json_file:
     json_data = json.load(json_file)
 
 df_json = pd.DataFrame(json_data)
-
+df_json['Title'] = df_json['title'].apply(clean_title)
+df_json.to_csv('df_json.csv', index=False)
 
 
 ## Genre and Rank
@@ -124,6 +160,7 @@ master_list = pd.merge(df_rank_genre, df_json, on='Title', how='left')
 master_list = pd.merge(master_list, df_sell, on='Title', how='left')
 master_list['Approx. sales (in millions)'] = master_list['Approx. sales (in millions)'].fillna('<10')
 master_list['Bestseller'] = master_list['Bestseller'].fillna('No')
+master_list = fill_country_based_on_author(master_list)
 
 master_list = master_list[['Title', 'Author', 'countries', 'Rank', 'Genre', 'first_year_published', 'Approx. sales (in millions)', 'Bestseller']]
 master_list.to_csv('master_list.csv', index=False)

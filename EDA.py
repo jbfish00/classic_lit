@@ -2,32 +2,55 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
+import geopandas as gpd
+import matplotlib.pyplot as plt
 
 
-df = pd.read_csv('./merged_df.csv')
+df = pd.read_csv('master_list.csv')
 
-author_freq = sns.histplot(data=df, x="Author",
-             binwidth=3,
-             color='skyblue')
-author_freq.set(xlabel='number of books written',
-                        ylabel='Frequency',
-                        title='Authored Books Frequency')
-                        
-sns.scatterplot(data=df, x="Year", y="Rank",
-                                            hue="Bestseller",
-                                            palette="Set2")
+# Assuming 'counties' column exists in your DataFrame 'df'
+country_counts = df['countries'].value_counts()
 
-sns.pairplot(df, hue='Genre')
-plt.show()
+world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+world = world.set_index('name').join(country_counts)
 
-sns.countplot(x='Genre', data=df)
-plt.xticks(rotation=90)
-              
+fig, ax = plt.subplots(1, 1)
+world.plot(column='countries', ax=ax, legend=True)
 plt.show()
 
 
-g = sns.PairGrid(df, hue='Genre')
-g.map_upper(sns.scatterplot)
-g.map_diag(sns.histplot)
-g.map_lower(sns.kdeplot)
-g.add_legend()
+sns.boxplot(x='Genre', y='Approx. sales (in millions)', data=df)
+plt.xticks(rotation=45)
+plt.show()
+
+
+df['first_year_published'].value_counts().sort_index().plot(kind='line')
+plt.xlabel('Year')
+plt.ylabel('Number of Books')
+plt.show()
+
+
+
+df['Bestseller'].value_counts().plot(kind='pie', autopct='%1.1f%%')
+plt.ylabel('')
+plt.show()
+
+
+author_sales = df.groupby('Author')['Approx. sales (in millions)'].sum().sort_values(ascending=False)
+author_sales.head(10).plot(kind='barh')  # Top 10 authors
+plt.xlabel('Total Sales (in millions)')
+plt.show()
+
+
+
+sns.heatmap(df[['Rank', 'Approx. sales (in millions)', 'first_year_published']].corr(), annot=True, fmt=".2f")
+plt.show()
+
+
+genre_over_time = df.groupby(['first_year_published', 'Genre']).size().unstack().fillna(0)
+genre_over_time.plot(kind='area', stacked=True)
+plt.xlabel('Year')
+plt.ylabel('Number of Books')
+plt.show()
+
+
