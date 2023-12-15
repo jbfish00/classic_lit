@@ -46,6 +46,7 @@ ax.set_axis_off()
 plt.show()
 
 
+#Number of bestsellers per country
 bestsellers_by_country = df[df['Bestseller'] == 'Yes'].groupby('countries').size().sort_values(ascending=False)
 plt.figure(figsize=(10, 6))
 sns.barplot(x=bestsellers_by_country.index, y=bestsellers_by_country.values)
@@ -58,7 +59,9 @@ plt.show()
 #Top 10 countreis with lowest rank
 best_ranked_countries = df.groupby('countries')['Rank'].min().sort_values().head(10)
 plt.figure(figsize=(10, 6))
-plt.scatter(best_ranked_countries.index, best_ranked_countries.values)
+for country, rank in best_ranked_countries.items():
+    plt.scatter(country, rank)
+    plt.text(country, rank, f'{rank}', ha='center', va='bottom')
 plt.title('Countries with the Best Rank')
 plt.xlabel('Country')
 plt.ylabel('Best Rank')
@@ -70,6 +73,9 @@ plt.show()
 #Top 10 genres with best rank
 best_ranked_genre = df.groupby('Genre')['Rank'].min().sort_values().head(10)
 plt.figure(figsize=(10, 6))
+for genre, rank in best_ranked_genre.items():
+    plt.scatter(genre, rank)
+    plt.text(genre, rank, f'{rank}', ha='center', va='bottom')
 plt.scatter(best_ranked_genre.index, best_ranked_genre.values)
 plt.title('Genres with the Best Rank')
 plt.xlabel('Genre')
@@ -124,45 +130,50 @@ sns.barplot(x=top_authors.index, y=top_authors.values)
 plt.title('Top 10 Most Prolific Authors by Number of Books')
 plt.xlabel('Author')
 plt.ylabel('Number of Books')
+plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))
 plt.xticks(rotation=45)  # Rotate the author names for better readability
 plt.show()
 
 
 
 
-
-##top authors by country
+# # Identify the top 10 most prolific authors
 # top_authors = df['Author'].value_counts().head(10).index
 
 # # Filter the DataFrame to include only the top authors
 # df_top_authors = df[df['Author'].isin(top_authors)]
 
-# # Now create a mapping of authors to countries
-# # If an author has multiple entries, we'll just take the first one
-# author_to_country = df_top_authors.drop_duplicates('Author').set_index('Author')['countries'].to_dict()
+# # Manually create a mapping of authors to their correct countries
+# # Example: author_to_country = {'Charles Dickens': 'United Kingdom', 'C.S. Lewis': 'United Kingdom', ...}
+# # Replace the example with actual mappings based on your data
+# author_to_country = {
+#     'Charles Dickens': 'United Kingdom',
+#     'C.S. Lewis': 'United Kingdom',
+#     'J.R.R. Tolkien': 'United Kingdom',
+#     # Add other authors and their correct countries here
+# }
 
-# # Map the authors to countries in our top_authors DataFrame
+# # Apply the mapping to the DataFrame
 # df_top_authors['Country'] = df_top_authors['Author'].map(author_to_country)
 
-# # Now we need to get the counts of books for each top author again
+# # Recalculate the book counts for each author
 # author_book_counts = df_top_authors['Author'].value_counts().reindex(top_authors)
 
 # # Create a unique color for each country
 # unique_countries = df_top_authors['Country'].unique()
 # palette = dict(zip(unique_countries, sns.color_palette("hls", len(unique_countries))))
 
-# # Create the bar plot with authors on the x-axis and the number of books on the y-axis, colored by country
+# # Create the bar plot
 # plt.figure(figsize=(12, 6))
 # sns.barplot(x=author_book_counts.index, y=author_book_counts.values, palette=df_top_authors['Country'].map(palette))
 
-# # Set the y-axis to show whole numbers only
+# # Set the y-axis to show whole numbers only and add title, labels, etc.
 # plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))
-
-# # Set the title and labels
 # plt.title('Top 10 Most Prolific Authors by Number of Books and Country of Origin')
 # plt.xlabel('Author')
 # plt.ylabel('Number of Books')
-# plt.xticks(rotation=45)  # Rotate the author names for better readability
+# plt.xticks(rotation=45)
+# plt.legend(title='Country of Origin', labels=unique_countries)
 # plt.show()
 
 
@@ -231,8 +242,8 @@ plt.show()
 
 
 #Number of books by genre by decade
+# Cleaning the data by dropping NaN values and creating a 'Decade' column
 df_cleaned = df.dropna(subset=['first_year_published'])
-df_cleaned['Decade'] = (df_cleaned['first_year_published'] // 10 * 10).astype(int)
 df_cleaned['Decade'] = (df_cleaned['first_year_published'] // 10 * 10).astype(int)
 
 # Grouping by genre and decade and counting the number of books
@@ -241,8 +252,9 @@ genre_by_decade = df_cleaned.groupby(['Genre', 'Decade']).size().reset_index(nam
 # Creating a pivot table for the plot
 pivot_table = genre_by_decade.pivot(index='Decade', columns='Genre', values='Count')
 
-# Plotting
-pivot_table.plot(kind='bar', stacked=True, figsize=(12, 6))
+# Plotting with a unique color for each genre using the 'tab20' colormap
+pivot_table.plot(kind='bar', stacked=True, figsize=(12, 6), colormap='tab20')
+
 plt.title('Number of Books in Each Genre by Decade')
 plt.xlabel('Decade')
 plt.ylabel('Number of Books')
