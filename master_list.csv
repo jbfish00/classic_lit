@@ -58,7 +58,7 @@ red badge of courage,Stephen Crane,United States of America,56,history,1895.0,<1
 anne of green gables,L.M. Montgomery,Canada,57,gen_fiction,1908.0,50-100,Yes
 anne of green gables,L.M. Montgomery,Canada,57,gen_fiction,1987.0,50-100,Yes
 black beauty,Anna Sewell,United Kingdom,58,gen_fiction,1877.0,50-100,Yes
-black beauty,Anna Sewell,England,58,gen_fiction,1877.0,50-100,Yes
+black beauty,Anna Sewell,United Kingdom,58,gen_fiction,1877.0,50-100,Yes
 peter pan,J.M. Barrie,United Kingdom,59,fantasy,1902.0,<10,No
 farewell to arms,Ernest Hemingway,United States of America,60,war,1929.0,<10,No
 house of seven gables,Nathaniel Hawthorne,United States of America,61,gen_fiction,1851.0,<10,No
@@ -115,7 +115,7 @@ war of worlds,H.G. Wells,United Kingdom,111,scifi,1898.0,<10,No
 middlemarch,George Eliot,United Kingdom,112,gen_fiction,1871.0,<10,No
 age of innocence,Edith Wharton,United States of America,113,gen_fiction,1920.0,<10,No
 color purple,Alice Walker,United States of America,114,gen_fiction,1982.0,<10,No
-northanger abbey,Jane Austen,England,115,romance,1818.0,<10,No
+northanger abbey,Jane Austen,United Kingdom,115,romance,1818.0,<10,No
 east of eden,John Steinbeck,United States of America,116,gen_fiction,1952.0,<10,No
 on road,Jack Kerouac,United States of America,117,autobio,1957.0,<10,No
 catch 22,Joseph Heller,United States of America,118,war,1961.0,10-20,Yes
@@ -351,7 +351,7 @@ broker,John Grisham,United States of America,341,thrillers,,<10,No
 camel club,David Baldacci,,342,political,,<10,No
 rainbow,D.H. Lawrence,United Kingdom,343,gen_fiction,1915.0,<10,No
 man in iron mask,Alexandre Dumas,France,344,history,,<10,No
-mary poppins,P.L. Travers,England,345,fantasy,1998.0,<10,No
+mary poppins,P.L. Travers,United Kingdom,345,fantasy,1998.0,<10,No
 artemis fowl,Eoin Colfer,Ireland,346,fantasy,2001.0,<10,No
 dear john,Nicholas Sparks,Hungary,347,romance,,<10,No
 cold mountain,Charles Frazier,United States of America,348,romance,1997.0,<10,No

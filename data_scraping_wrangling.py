@@ -175,7 +175,7 @@ country_mapping = {
     "Italian": "Italy",
     "Columbian": "Columbia",
     "Canadian": "Canada",
-    "English": "England",
+    "English": "United Kingdom",
     "Czech": "Czech Republic",
     "German": "Germany",
     "Brazilian": "Brazil",
@@ -192,6 +192,11 @@ country_mapping = {
     "Indian": "India"
     # Add more mappings as necessary
 }
+
+
+# Ensure the country for "Hard Times" is set to 'United Kingdom'
+master_list.loc[master_list['Title'] == 'Hard Times', 'countries'] = 'United Kingdom'
+
 
 master_list['countries'] = master_list['countries'].map(country_mapping)
 
