@@ -137,59 +137,6 @@ plt.show()
 
 
 
-# # Identify the top 10 most prolific authors
-# top_authors = df['Author'].value_counts().head(10).index
-
-# # Filter the DataFrame to include only the top authors
-# df_top_authors = df[df['Author'].isin(top_authors)]
-
-# # Manually create a mapping of authors to their correct countries
-# # Example: author_to_country = {'Charles Dickens': 'United Kingdom', 'C.S. Lewis': 'United Kingdom', ...}
-# # Replace the example with actual mappings based on your data
-# author_to_country = {
-#     'Charles Dickens': 'United Kingdom',
-#     'C.S. Lewis': 'United Kingdom',
-#     'J.R.R. Tolkien': 'United Kingdom',
-#     # Add other authors and their correct countries here
-# }
-
-# # Apply the mapping to the DataFrame
-# df_top_authors['Country'] = df_top_authors['Author'].map(author_to_country)
-
-# # Recalculate the book counts for each author
-# author_book_counts = df_top_authors['Author'].value_counts().reindex(top_authors)
-
-# # Create a unique color for each country
-# unique_countries = df_top_authors['Country'].unique()
-# palette = dict(zip(unique_countries, sns.color_palette("hls", len(unique_countries))))
-
-# # Create the bar plot
-# plt.figure(figsize=(12, 6))
-# sns.barplot(x=author_book_counts.index, y=author_book_counts.values, palette=df_top_authors['Country'].map(palette))
-
-# # Set the y-axis to show whole numbers only and add title, labels, etc.
-# plt.gca().yaxis.set_major_locator(plt.MaxNLocator(integer=True))
-# plt.title('Top 10 Most Prolific Authors by Number of Books and Country of Origin')
-# plt.xlabel('Author')
-# plt.ylabel('Number of Books')
-# plt.xticks(rotation=45)
-# plt.legend(title='Country of Origin', labels=unique_countries)
-# plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #Auhtors by # of bestsellers
 authors_bestsellers = df[df['Bestseller'] == 'Yes'].groupby('Author').size().sort_values(ascending=False).head(10)  # Adjust as needed
