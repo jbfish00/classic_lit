@@ -1,0 +1,7 @@
+1 parent 2c33670
+commit a73021b
+
+Looks good! It sounds like it was difficult to clean up the titles column so good job on that. The only thing I will say is that the language is pretty informal, which maybe feels out of place for a data science audience.
+
+The information on the blogs is super interesting.  I like how you use the charts and graphs to visually show the counties that have the highest ranked books. 
+

@@ -25,18 +25,18 @@ df = load_data()
 
 
 
-# Sidebar navigation
-st.sidebar.title("Navigation")
-options = st.sidebar.radio("Select a Chart:", 
-    ['Books by Genre by Decade', 'Book Ranks by Genre'])
+# # Sidebar navigation
+# st.sidebar.title("Navigation")
+# options = st.sidebar.radio("Select a Chart:", 
+#     ['Books by Genre by Decade', 'Book Ranks by Genre'])
 
 
 
 
-# Sidebar for user input features
-st.sidebar.header('User Input Features')
-# Example: allow user to select a genre
-selected_genre = st.sidebar.selectbox('Select a Genre', df['Genre'].unique())
+# # Sidebar for user input features
+# st.sidebar.header('User Input Features')
+# # Example: allow user to select a genre
+# selected_genre = st.sidebar.selectbox('Select a Genre', df['Genre'].unique())
 
 # Main Page
 st.title('Literary Data Visualizations')
@@ -82,7 +82,9 @@ You can choose multiple authors to compare their productivity and the distributi
 """)
 # Author selection
 st.header('Author Selection')
-selected_authors = st.multiselect('Select one or more Authors', df['Author'].unique())
+# Sort the list of authors alphabetically
+sorted_authors_list = sorted(df['Author'].unique())
+selected_authors = st.multiselect('Select one or more Authors', sorted_authors_list)
 
 # Check if authors are selected
 if selected_authors:
@@ -172,3 +174,50 @@ fig.update_layout(coloraxis_colorbar=dict(
 # Display the figure in Streamlit
 st.header('Map of Books Produced by Country')
 st.plotly_chart(fig)
+
+
+
+st.sidebar.header('User Input Features')
+
+# Convert years into decades
+df['Decade'] = (df['first_year_published'] // 10 * 10).astype(str) + 's'
+decade_list = sorted(df['Decade'].dropna().unique())
+selected_decades = st.sidebar.multiselect('Select Decades', decade_list, default=decade_list)
+
+country_list = sorted(df['countries'].dropna().unique())
+selected_countries = st.sidebar.multiselect('Select Countries', country_list, default=country_list[0])
+
+
+# Filter data based on selection of decades and countries
+df_filtered = df[df['Decade'].isin(selected_decades) & df['countries'].isin(selected_countries)]
+
+# Plotting number of books from different countries over time
+st.header('Number of Books from Different Countries Over Time')
+st.markdown("""## Instructions for Interacting with the Graph
+
+This interactive graph displays the number of books from various countries across different time periods (decades). Here's how you can interact with it:
+
+1. **Selecting Decades**: 
+   - On the left sidebar, you will find an option to 'Select Decades'.
+   - You can select one or multiple decades for which you want to see the data.
+   - The graph will update automatically to reflect the books published in the chosen decades.
+
+2. **Selecting Countries**: 
+   - Just below the decades selection, there is an option to 'Select Countries'.
+   - Similar to decades, you can choose one or multiple countries.
+   - The graph will show data for books from these selected countries in the chosen time periods.""")
+
+
+# Group and count the books by Decade and Country
+book_counts = df_filtered.groupby(['Decade', 'countries']).size().unstack(fill_value=0)
+
+# Create a stacked bar chart
+fig, ax = plt.subplots(figsize=(15, 8))
+book_counts.plot(kind='bar', stacked=True, ax=ax)
+
+# Customize the plot with titles and labels
+ax.set_title('Number of Books by Country Across Decades')
+ax.set_xlabel('Decades')
+ax.set_ylabel('Number of Books')
+ax.legend(title='Country')
+st.pyplot(fig)
